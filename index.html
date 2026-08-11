@@ -1,176 +1,395 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Moirai — Sovereign AI Image Generator v1.0</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Moirai — Music Mentor of The Refrain. Guidance for melody, harmony, rhythm, songwriting, composition, practice, performance preparation, recording pathways, and music research.">
+<meta name="theme-color" content="#f4eee5">
+<meta name="color-scheme" content="light">
+<title>Moirai · Music Mentor · The Refrain</title>
 <style>
 :root{
-  --bg:#0e0e0f;--accent:#ff8859;--muted:#d7d7d7;--radius:16px;
-  --font:"Poppins",system-ui,-apple-system,"Segoe UI",Roboto,Arial;
+  --paper:#f4eee5;
+  --paper-2:#fbf8f2;
+  --ink:#173d63;
+  --ink-soft:#46627b;
+  --blue:#2c6f97;
+  --blue-pale:#c7dce7;
+  --gold:#b78c43;
+  --gold-pale:#eadab7;
+  --lavender:#aaa0cb;
+  --rose:#d9b7aa;
+  --line:rgba(23,61,99,.16);
+  --line-strong:rgba(23,61,99,.28);
+  --shadow:0 24px 66px rgba(23,61,99,.12);
+  --radius:11px;
+  --radius-large:21px;
+  --max:1180px;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next","Segoe UI Variable Text","Segoe UI",Helvetica,Arial,sans-serif;
 }
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--font);background:var(--bg);color:var(--muted);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
-.app{max-width:960px;width:100%;display:flex;flex-direction:column;gap:2rem;text-align:center}
-h1{font-size:clamp(2.5rem,5vw,3.5rem);color:white}
-p.desc{opacity:.8}
-button{cursor:pointer;border:none;border-radius:var(--radius);font-weight:600;transition:all .2s}
-button:hover{transform:scale(1.03)}
-section{background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:2rem;box-shadow:0 6px 24px rgba(0,0,0,.4)}
-label{display:block;margin-bottom:.3rem;font-weight:600}
-select,input{width:100%;padding:1rem;border-radius:var(--radius);border:1px solid rgba(255,255,255,.08);background:transparent;color:white;font-size:1.1rem}
-input:focus,select:focus{outline:none;border-color:var(--accent)}
-#generate{background:linear-gradient(180deg,var(--accent),#ff6e3a);color:white;padding:1rem 2rem;margin-top:1rem}
-#canvasWrap{position:relative;margin-top:1rem}
-canvas{border-radius:var(--radius);width:100%;max-height:480px;box-shadow:0 0 24px rgba(0,0,0,.6)}
-.caption{margin-top:1rem;font-size:1.2rem;line-height:1.4;color:rgba(255,255,255,.9)}
-.toast{position:fixed;bottom:2rem;left:50%;transform:translateX(-50%);background:#222;padding:.8rem 1.2rem;border-radius:12px;color:white;opacity:0;transition:opacity .4s}
-.toast.show{opacity:1}
-.admin-btn{position:fixed;top:1rem;right:1rem;background:#e53935;color:#fff;padding:.6rem 1rem;font-size:.9rem}
-.sidebar{position:fixed;top:0;right:-360px;width:340px;height:100vh;background:#181818;padding:1.5rem;transition:right .3s;overflow:auto}
-.sidebar.open{right:0}
-.sidebar input{margin-bottom:.6rem}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{
+  margin:0;
+  min-width:300px;
+  min-height:100vh;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 11% 6%,rgba(199,220,231,.38),transparent 28rem),
+    radial-gradient(circle at 89% 16%,rgba(234,218,183,.32),transparent 30rem),
+    linear-gradient(180deg,var(--paper-2),var(--paper));
+  font-family:var(--sans);
+  font-size:15px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+button{font:inherit}
+img{max-width:100%}
+::selection{background:var(--gold-pale);color:var(--ink)}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{width:min(calc(100% - 32px),var(--max));margin-inline:auto}
+.skip-link{
+  position:fixed;left:14px;top:14px;z-index:2000;
+  transform:translateY(-170%);padding:10px 14px;border-radius:7px;
+  color:#fff;background:var(--ink);text-decoration:none
+}
+.skip-link:focus{transform:none}
+
+/* Header */
+.site-header{
+  position:sticky;top:0;z-index:1000;
+  border-bottom:1px solid var(--line);
+  background:rgba(244,238,229,.92);
+  backdrop-filter:blur(16px);
+}
+.header-inner{
+  min-height:66px;
+  display:grid;
+  grid-template-columns:minmax(210px,1fr) auto minmax(210px,1fr);
+  align-items:center;
+  gap:14px;
+}
+.brand{
+  justify-self:start;display:inline-flex;align-items:center;gap:11px;
+  text-decoration:none;min-width:0
+}
+.brand-mark{
+  width:44px;height:44px;display:grid;place-items:center;flex:0 0 44px;
+  border:1px solid var(--gold);border-radius:50%;
+  color:var(--ink);background:rgba(255,255,255,.62);
+  font:500 22px/1 var(--serif);
+  box-shadow:0 8px 24px rgba(23,61,99,.07)
+}
+.brand-copy{display:grid;line-height:1.05}
+.brand-copy strong{font:500 18px var(--serif);letter-spacing:.03em}
+.brand-copy small{margin-top:5px;color:var(--blue);font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+.site-identity{justify-self:center;text-align:center;text-decoration:none}
+.site-identity strong{
+  display:block;font:500 13px var(--serif);
+  letter-spacing:.18em;text-transform:uppercase
+}
+.site-identity small{
+  display:block;margin-top:4px;color:var(--gold);
+  font-size:10px;letter-spacing:.13em;text-transform:uppercase
+}
+.header-actions{justify-self:end;display:flex;align-items:center;gap:6px}
+.header-link{
+  display:inline-flex;align-items:center;min-height:38px;padding:7px 10px;
+  border:1px solid var(--line);border-radius:7px;
+  background:rgba(255,255,255,.46);text-decoration:none;
+  font-size:10px;letter-spacing:.1em;text-transform:uppercase
+}
+.header-link:hover{border-color:var(--gold);background:#fff}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero::after{
+  content:"";position:absolute;inset:auto 0 0;height:5px;
+  background:linear-gradient(90deg,var(--lavender),var(--blue-pale),var(--gold-pale),var(--rose))
+}
+.hero-grid{
+  min-height:calc(100svh - 66px);
+  display:grid;
+  grid-template-columns:minmax(0,.92fr) minmax(380px,1.08fr);
+  gap:55px;align-items:center;padding:66px 0 74px
+}
+.art-card{
+  position:relative;overflow:hidden;border:1px solid var(--line);
+  border-radius:var(--radius-large);background:#fff;
+  box-shadow:var(--shadow)
+}
+.art-card img{display:block;width:100%;height:auto}
+.art-note{
+  position:absolute;left:14px;right:14px;bottom:14px;
+  display:flex;justify-content:space-between;gap:14px;
+  padding:9px 11px;border:1px solid rgba(255,255,255,.7);border-radius:7px;
+  color:#173d63;background:rgba(250,247,241,.88);backdrop-filter:blur(10px);
+  font-size:10px;letter-spacing:.08em;text-transform:uppercase
+}
+.hero-copy{max-width:640px}
+.eyebrow,.kicker{
+  margin:0;color:var(--gold);font-size:11px;letter-spacing:.2em;text-transform:uppercase
+}
+.hero h1{
+  margin:17px 0 0;
+  font:500 clamp(58px,9vw,112px)/.86 var(--serif);
+  letter-spacing:-.055em
+}
+.hero h1 span{
+  display:block;margin-top:17px;color:var(--blue);
+  font:500 clamp(16px,2vw,22px)/1.25 var(--sans);
+  letter-spacing:.18em;text-transform:uppercase
+}
+.hero-lead{
+  max-width:620px;margin:24px 0 0;color:var(--ink-soft);
+  font:400 clamp(17px,1.8vw,21px)/1.75 var(--serif)
+}
+.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.button{
+  min-height:48px;display:inline-flex;align-items:center;justify-content:center;
+  padding:11px 17px;border:1px solid transparent;border-radius:7px;
+  text-decoration:none;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+  transition:transform .16s ease,border-color .16s ease,background .16s ease
+}
+.button:hover{transform:translateY(-2px)}
+.button-primary{color:#fff;background:var(--ink);box-shadow:0 12px 28px rgba(23,61,99,.15)}
+.button-secondary{border-color:var(--line-strong);background:rgba(255,255,255,.55)}
+.hero-flow{
+  margin-top:30px;padding-top:21px;border-top:1px solid var(--line);
+  color:var(--blue);font:500 18px var(--serif);letter-spacing:.08em
+}
+
+/* Sections */
+.section{padding:clamp(66px,8vw,100px) 0}
+.section-alt{
+  border-block:1px solid var(--line);
+  background:rgba(255,255,255,.42)
+}
+.section-head{max-width:820px;margin:0 auto 33px;text-align:center}
+.section-head h2{
+  margin:11px 0 0;font:500 clamp(34px,5vw,58px)/1 var(--serif);
+  letter-spacing:-.03em
+}
+.section-head p:last-child{
+  max-width:690px;margin:16px auto 0;color:var(--ink-soft)
+}
+.path-grid{
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px
+}
+.path-card{
+  min-height:220px;padding:24px;border:1px solid var(--line);
+  border-radius:var(--radius);background:rgba(255,255,255,.62);
+  box-shadow:0 14px 33px rgba(23,61,99,.06)
+}
+.path-card .num{
+  color:var(--gold);font-size:11px;letter-spacing:.15em;text-transform:uppercase
+}
+.path-card h3{margin:13px 0 0;font:500 24px/1.1 var(--serif)}
+.path-card p{margin:12px 0 0;color:var(--ink-soft)}
+.capabilities{
+  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px
+}
+.capability{
+  min-height:92px;display:flex;align-items:center;justify-content:center;text-align:center;
+  padding:15px;border:1px solid var(--line);border-radius:var(--radius);
+  background:rgba(255,255,255,.58);
+  font-size:12px;letter-spacing:.06em;text-transform:uppercase
+}
+.boundary-card{
+  max-width:880px;margin:auto;padding:28px;border:1px solid var(--line-strong);
+  border-radius:var(--radius-large);
+  background:linear-gradient(135deg,rgba(199,220,231,.22),rgba(234,218,183,.22));
+  text-align:center
+}
+.boundary-card h3{margin:0;font:500 30px var(--serif)}
+.boundary-card p{max-width:720px;margin:13px auto 0;color:var(--ink-soft)}
+.link-row{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin-top:20px}
+.pill{
+  display:inline-flex;align-items:center;min-height:38px;padding:8px 12px;
+  border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.62);
+  text-decoration:none;font-size:11px;letter-spacing:.07em;text-transform:uppercase
+}
+.pill:hover{border-color:var(--gold);background:#fff}
+.legacy-note{
+  max-width:760px;margin:26px auto 0;color:#65798b;text-align:center;font-size:12px
+}
+footer{
+  padding:34px 16px;border-top:1px solid var(--line);
+  color:#6a7e8f;text-align:center;font-size:11px;letter-spacing:.05em
+}
+
+@media(max-width:920px){
+  .header-inner{grid-template-columns:1fr auto}
+  .site-identity{display:none}
+  .hero-grid{grid-template-columns:1fr;min-height:auto}
+  .art-card{max-width:650px;margin:auto}
+  .hero-copy{text-align:center;margin:auto}
+  .hero-actions{justify-content:center}
+  .capabilities{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:720px){
+  .path-grid{grid-template-columns:1fr}
+  .header-actions .header-link:first-child{display:none}
+}
+@media(max-width:520px){
+  .brand-copy small{display:none}
+  .header-link{padding-inline:8px}
+  .capabilities{grid-template-columns:1fr}
+  .art-note{position:static;border:0;border-radius:0;background:#fff}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .button{transition:none}
+}
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-<div class="app">
-  <h1>Moirai</h1>
-  <p class="desc">The Sovereign AI Image Generator — offline, poetic, and free.</p>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="./" aria-label="Moirai home">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-copy">
+        <strong>Moirai</strong>
+        <small>Music Mentor</small>
+      </span>
+    </a>
 
-  <section id="controls">
-    <label for="theme">Theme / Concept</label>
-    <select id="theme">
-      <option value="">Random</option>
-      <option>Freedom</option><option>Dreams</option><option>Melancholy</option>
-      <option>Hope</option><option>Rebirth</option><option>Light</option>
-    </select>
+    <a class="site-identity" href="https://vervenveda.com/the_refrain.github.io/">
+      <strong>The Refrain</strong>
+      <small>Music Hub</small>
+    </a>
 
-    <label for="emotion">Emotion / Mood</label>
-    <select id="emotion">
-      <option value="">Random</option>
-      <option>Peaceful</option><option>Passionate</option><option>Mysterious</option>
-      <option>Joyful</option><option>Reflective</option><option>Bold</option>
-    </select>
+    <div class="header-actions">
+      <a class="header-link" href="#pathways">Pathways</a>
+      <a class="header-link" href="https://vervenveda.com/the_refrain.github.io/">Enter The Refrain</a>
+    </div>
+  </div>
+</header>
 
-    <label for="symbol">Symbol / Object</label>
-    <select id="symbol">
-      <option value="">Random</option>
-      <option>Moon</option><option>Tree</option><option>Flame</option>
-      <option>Dove</option><option>Labyrinth</option><option>Phoenix</option>
-    </select>
+<main id="main">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <figure class="art-card">
+        <img src="assets/moirai-the-refrain.png" alt="Watercolor identity artwork for Moirai, Music Mentor, and The Refrain Music Hub">
+        <figcaption class="art-note">
+          <span>Moirai · Music Mentor</span>
+          <span>The Refrain · Music Hub</span>
+        </figcaption>
+      </figure>
 
-    <label for="style">Artistic Style</label>
-    <select id="style">
-      <option value="">Random</option>
-      <option>Impressionist</option><option>Minimalist</option>
-      <option>Abstract</option><option>Fantasy</option><option>Surreal</option>
-    </select>
-
-    <button id="generate">Generate Image</button>
+      <div class="hero-copy">
+        <p class="eyebrow">Noema → NAIB → Moirai → The Refrain</p>
+        <h1>Moirai <span>Music Mentor</span></h1>
+        <p class="hero-lead">
+          A thoughtful guide for melody, harmony, rhythm, songwriting, composition,
+          arrangement, practice, performance preparation, and the many musical pathways
+          of The Refrain.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="https://vervenveda.com/the_refrain.github.io/">Enter The Refrain</a>
+          <a class="button button-secondary" href="#pathways">Explore with Moirai</a>
+        </div>
+        <div class="hero-flow">Flow · Create · Connect</div>
+      </div>
+    </div>
   </section>
 
-  <div id="canvasWrap"></div>
-</div>
+  <section class="section section-alt" id="pathways">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Mentorship pathways</p>
+        <h2>Guide the musician. Keep the music theirs.</h2>
+        <p>
+          Moirai helps a musician understand, shape, practice, and develop musical work
+          while preserving the musician’s authorship, intention, and creative identity.
+        </p>
+      </div>
 
-<button class="admin-btn" id="adminBtn">Admin</button>
-<div class="sidebar" id="sidebar">
-  <h3>Admin Panel</h3>
-  <input type="password" id="passInput" placeholder="Enter Passcode"/>
-  <button id="unlockBtn">Unlock</button>
-  <div id="adminArea" style="display:none">
-    <label>Contrast Mode Toggle</label>
-    <button id="contrastBtn">Toggle High Contrast</button>
-    <label>Reset Generator</label>
-    <button id="resetBtn">Reset All</button>
-  </div>
-</div>
-<div class="toast" id="toast"></div>
+      <div class="path-grid">
+        <article class="path-card">
+          <div class="num">01 · Create</div>
+          <h3>Turn an idea into musical form.</h3>
+          <p>Explore melody, songwriting, harmony, composition, arrangement, instrumentation, and structure.</p>
+        </article>
 
-<script>
-// ====== Data Sets ======
-const palettes=[
-  {name:"Sunset Serenity",colors:["#FF6E3A","#FF8A59","#FFD1A4","#FFE1C6","#2C1B17"]},
-  {name:"Forest Whisper",colors:["#2E4E1F","#6B8E23","#A9C985","#D4EAC7","#E5F3DB"]},
-  {name:"Dreamy Pastels",colors:["#FADADD","#FFD9E8","#C9E4FF","#E2FFE2","#FFF0B3"]},
-  {name:"Bold Contrast",colors:["#FF3D00","#00FFD1","#FFEB00","#2C003E","#FF6E3A"]}
-];
-const templates=[
-  "The {symbol} {verb} through the {adjective} {theme}.",
-  "A {adjective} {symbol} {verb} within {emotion}.",
-  "In {emotion}, the {symbol} {verb} beneath {theme}."
-];
-const adjectives=["radiant","serene","mystic","luminous","gentle","fiery"];
-const verbs=["rises","whispers","glows","flows","lingers","awakens"];
-const passcode="3112";
+        <article class="path-card">
+          <div class="num">02 · Learn</div>
+          <h3>Understand what the music is doing.</h3>
+          <p>Work through theory, rhythm, ear training, listening, analysis, and age-appropriate musical study.</p>
+        </article>
 
-// ====== Utility ======
-const rand=a=>a[Math.floor(Math.random()*a.length)];
-const toast=(m)=>{const t=document.getElementById("toast");t.textContent=m;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2200);};
+        <article class="path-card">
+          <div class="num">03 · Develop</div>
+          <h3>Move from practice toward performance.</h3>
+          <p>Build practice plans, rehearse purposefully, prepare performances, and organize recording or production pathways.</p>
+        </article>
+      </div>
+    </div>
+  </section>
 
-// ====== Core Generation ======
-document.getElementById("generate").onclick=()=>{
-  const theme=document.getElementById("theme").value||rand(["Freedom","Dreams","Hope","Twilight"]);
-  const emotion=document.getElementById("emotion").value||rand(["Peaceful","Passionate","Mysterious","Joyful"]);
-  const symbol=document.getElementById("symbol").value||rand(["Moon","Tree","Flame","Dove"]);
-  const style=document.getElementById("style").value||rand(["Abstract","Fantasy","Surreal"]);
-  const palette=rand(palettes);
-  renderCanvas(theme,emotion,symbol,style,palette);
-};
+  <section class="section" id="capabilities">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="kicker">Musical areas</p>
+        <h2>From first sound to deeper craft.</h2>
+        <p>
+          Moirai can help organize the next musical step and guide people toward
+          the appropriate Refrain resource.
+        </p>
+      </div>
 
-// ====== Canvas Renderer ======
-function renderCanvas(theme,emotion,symbol,style,palette){
-  const wrap=document.getElementById("canvasWrap");wrap.innerHTML="";
-  const canvas=document.createElement("canvas");canvas.width=800;canvas.height=500;
-  const ctx=canvas.getContext("2d");
-  // background gradient
-  const g=ctx.createLinearGradient(0,0,0,canvas.height);
-  g.addColorStop(0,palette.colors[0]);g.addColorStop(1,palette.colors[3]);
-  ctx.fillStyle=g;ctx.fillRect(0,0,canvas.width,canvas.height);
-  // procedural circles
-  for(let i=0;i<40;i++){
-    ctx.beginPath();
-    const r=Math.random()*80+10;
-    ctx.arc(Math.random()*800,Math.random()*500,r,0,Math.PI*2);
-    ctx.fillStyle=palette.colors[Math.floor(Math.random()*palette.colors.length)]+"22";
-    ctx.fill();
-  }
-  // subtle texture noise
-  const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);
-  for(let i=0;i<imgData.data.length;i+=4){imgData.data[i+3]-=Math.random()*10;}
-  ctx.putImageData(imgData,0,0);
-  wrap.appendChild(canvas);
-  // caption
-  const t=rand(templates)
-    .replace("{theme}",theme.toLowerCase())
-    .replace("{emotion}",emotion.toLowerCase())
-    .replace("{symbol}",symbol.toLowerCase())
-    .replace("{adjective}",rand(adjectives))
-    .replace("{verb}",rand(verbs));
-  const cap=document.createElement("div");
-  cap.className="caption";
-  cap.innerHTML=`${t}<br><em>Style:</em> ${style}, <em>Palette:</em> ${palette.name}`;
-  wrap.appendChild(cap);
-}
+      <div class="capabilities" aria-label="Moirai capabilities">
+        <div class="capability">Melody</div>
+        <div class="capability">Harmony</div>
+        <div class="capability">Rhythm & Meter</div>
+        <div class="capability">Songwriting</div>
+        <div class="capability">Composition</div>
+        <div class="capability">Arrangement</div>
+        <div class="capability">Instrumentation</div>
+        <div class="capability">Music Theory</div>
+        <div class="capability">Ear Training</div>
+        <div class="capability">Practice Planning</div>
+        <div class="capability">Performance Preparation</div>
+        <div class="capability">Recording & Production Pathways</div>
+      </div>
+    </div>
+  </section>
 
-// ====== Admin Panel ======
-const sidebar=document.getElementById("sidebar");
-document.getElementById("adminBtn").onclick=()=>sidebar.classList.add("open");
-document.getElementById("unlockBtn").onclick=()=>{
-  const p=document.getElementById("passInput").value.trim();
-  if(p===passcode){document.getElementById("adminArea").style.display="block";toast("Unlocked");}
-  else toast("Incorrect passcode");
-};
-document.getElementById("contrastBtn").onclick=()=>{
-  document.body.classList.toggle("high");
-  if(document.body.classList.contains("high")){
-    document.body.style.background="#fff";document.body.style.color="#111";
-  }else{document.body.style.background="#0e0e0f";document.body.style.color="#d7d7d7";}
-};
-document.getElementById("resetBtn").onclick=()=>{
-  localStorage.clear();toast("Reset complete");sidebar.classList.remove("open");
-};
-</script>
+  <section class="section section-alt" id="network">
+    <div class="wrap">
+      <div class="boundary-card">
+        <p class="kicker">A specialist within a larger system</p>
+        <h3>Moirai guides. The musician remains the author.</h3>
+        <p>
+          Moirai does not own The Refrain, elevate permissions, claim that a performance or
+          recording occurred, or take copyright ownership of a musician’s work. When another
+          specialty is a better fit, she can prepare a handoff without impersonating that specialist.
+        </p>
+
+        <div class="link-row" aria-label="Related specialist pathways">
+          <a class="pill" href="https://artist1970.github.io/Eiren.github.io/">Eiren · Lyrics & Reflection</a>
+          <a class="pill" href="https://artist1970.github.io/Zelle.github.io/">Zelle · Creative Guidance</a>
+          <a class="pill" href="https://artist1970.github.io/ai-Archaemenes.github.io/">Archaemenes · Academic Study</a>
+          <a class="pill" href="https://vervenveda.com/Arshif.github.io/">ARSHIF · Research & Archive</a>
+        </div>
+
+        <p class="legacy-note">
+          Earlier Moirai development included a procedural visual experiment.
+          It is preserved separately as a legacy studio and no longer defines Moirai’s primary identity.
+          <a href="legacy-image-generator.html">Open Legacy Visual Studio</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  Moirai · Music Mentor · The Refrain · Verve N Veda
+</footer>
 </body>
 </html>

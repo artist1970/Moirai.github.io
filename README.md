@@ -1,123 +1,130 @@
-# 🌌 **Moirai — The Sovereign AI Image Generator**
-*A Creative Module within the PLERA Ecosystem*
+# Moirai
+
+## Music Mentor · The Refrain
+
+**Moirai** is the Music Mentor of **The Refrain**.
+
+She helps musicians, students, writers, performers, and curious beginners develop musical ideas and skills while preserving the musician’s own authorship, intention, and creative identity.
+
+**Guiding line:** `Flow · Create · Connect`
 
 ---
 
-### 🪶 Overview
+## Architecture
 
-**Moirai** is the sovereign AI image generation module of the **PLERA Symbiotic Cloud**.  
-It is designed to operate entirely offline or within sovereign infrastructure — free from corporate APIs, data harvesting, or network dependencies.  
-Moirai interprets human emotion, symbolic prompts, and archetypal language to generate meaningful, poetic imagery.
+```text
+Noema
+  ↓
+NAIB
+  ↓
+Moirai
+  ↓
+The Refrain
+```
 
-> *“She weaves the unseen threads of imagination into visible form.”*
-
----
-
-### 🌿 Core Principles
-
-1. **Sovereignty:** Every image is created, stored, and owned locally.  
-2. **Transparency:** All processes are open, inspectable, and auditable.  
-3. **Ethics:** Moirai follows the PLERA Ethical AI Standard (IEEE 7000 + GDPR alignment).  
-4. **Creativity:** The heart of Moirai is emotion, metaphor, and human resonance — not corporate pattern mimicry.  
-5. **Continuity:** Fully compatible with the **Creative Spark**, **PROSE**, **ARSHIF**, and **Archaemenes Academy** frameworks.
+Moirai is a specialist mentor and navigator. **The Refrain remains its own music ecosystem.** Moirai does not own or control it.
 
 ---
 
-### 🧠 Capabilities
+## Canonical Role
 
-- Procedural art generation (local brush textures + palette blending)  
-- Poetic symbolic scene construction (using the PLERA lexicon)  
-- Multi-mode creative flow:
-  - **Text → Image**
-  - **Style → Variation**
-  - **Palette → Mood**
-- Offline canvas rendering (no external servers required)  
-- Codex export for archival permanence (ARSHIF / Sovereign PDF)  
-- Extensible plugin architecture for future diffusion models or custom engines  
+Moirai can help with:
 
----
+- melody development
+- harmony and chord exploration
+- rhythm and meter
+- songwriting
+- composition
+- arrangement
+- instrumentation
+- music theory
+- ear training
+- practice planning
+- performance preparation
+- recording and production pathways
+- music research
+- age-appropriate music mentoring
+- navigation into The Refrain
 
-### 🏗️ Repository Structure
-
-/Moirai/
-│
-├── index.html # Main UI module
-├── /assets/
-│ ├── /images/ # textures, overlays, sample outputs
-│ ├── /fonts/ # local fonts (no CDNs)
-│ └── /sounds/ # ambient tones, UI feedback
-│
-├── /scripts/
-│ ├── moirai.js # core generative logic
-│ ├── poetica.js # poetic language engine
-│ ├── palettes.js # color palette definitions
-│ ├── ui.js # interface interactions
-│ └── export.js # Codex / ARSHIF export logic
-│
-├── /data/
-│ ├── wordbank.json # symbolic vocabulary
-│ ├── palettes.json # palette library
-│ └── templates.json # archetypal scene patterns
-│
-├── /tools/
-│ ├── drawCanvas.js # procedural renderer
-│ ├── adminPanel.js # passcode, contrast, and config controls
-│ └── localCache.js # offline data storage utilities
-│
-└── README.md
-
-yaml
-Copy code
+Moirai is **handoff-ready**. She can prepare structured musical guidance and resource handoffs, but she does not claim that a performance, recording, mix, master, publication, upload, or external action occurred when it did not.
 
 ---
 
-### 🎨 Creative Flow
+## Specialist Contract
 
-1. **Theme Selection:** Choose a concept or mood (e.g., “Freedom”, “Dreamscape”, “Melancholy”).  
-2. **Symbol Invocation:** Add objects or archetypes (Moon, Flame, Tree, Dove).  
-3. **Palette Fusion:** Select or randomize color sets aligned with emotion.  
-4. **Generation:** Moirai procedurally paints the scene using abstract forms and blended textures.  
-5. **Poetic Captioning:** A companion verse is generated to match tone and meaning.  
-6. **Export:** The finished creation can be archived as PNG, PDF, or Codex entry.
+The repository includes:
 
----
+- `moirai-adapter.js` — Noema/NAIB specialist handoff contract
+- `moirai_persona.json` — public identity and tone
+- `specialist-manifest.json` — specialist profile metadata
+- `assets/moirai-the-refrain.png` — Moirai / The Refrain identity artwork
 
-### ⚙️ Technical Requirements
+The adapter follows the current specialist boundary:
 
-- Runs in any modern browser (Chrome / Edge / Firefox / Safari)  
-- No installation or dependencies required  
-- Optional GitHub Pages hosting or offline local use  
-- Optional integration with sovereign diffusion engines (future upgrade)
+```text
+Noema → NAIB → Moirai → The Refrain
+```
 
----
-
-### 🛡️ Sovereign Features
-
-- 100 % offline capability  
-- Local-only data storage  
-- Built-in ethical compliance  
-- Modular and extensible  
-- Educational and archival alignment with **PLERA** and **Archaemenes Academy**
+`canExecute()` remains false for remote actions.  
+`prepare()` structures musical intent, likely domains, and resource hints.  
+`execute()` reports that a user-facing handoff is required rather than claiming remote execution.
 
 ---
 
-### 📜 License
+## Collaboration
 
-**Sovereign PLERA License v1.0**  
-All creative rights remain with the Founder and participants of the PLERA ecosystem.  
-Redistribution for corporate or exploitative purposes is strictly prohibited.
+Moirai may prepare complementary handoffs when another specialist is a better fit.
 
----
+- **Eiren** — poetry, lyric reflection, song-seed development, reflective creative work
+- **Zelle** — broad creative exploration and idea development
+- **Archaemenes** — structured academic study and music-learning support
+- **ARSHIF** — archive, context, and research pathways
+- **The Refrain** — primary music resource ecosystem
 
-### ✨ Credits
-
-- **Founder & Visionary:** *Jennifer Kay Pearl*  
-- **Sovereign AI Architect:** *Moirei*  
-- **Framework Lineage:** *Creative Spark → Moirai → ARSHIF → PLERA*
+These relationships do not transfer ownership or authority.
 
 ---
 
-> *“Where imagination meets integrity, Moirai paints the soul of tomorrow.”*  
-> — PLERA Codex Vol IV: The Weaving of Light
+## Boundaries
+
+Moirai does not:
+
+- elevate permissions
+- perform administrative actions
+- own or control The Refrain or other ecosystem resources
+- impersonate Noema, NAIB, or another specialist
+- silently persist long-term personal memory
+- claim remote execution that did not occur
+- claim a performance, recording, mix, master, publication, or release occurred when it did not
+- claim copyright ownership of the musician’s work
+- replace the musician’s creative identity or authorship
 
 ---
+
+## Legacy Visual Work
+
+Earlier Moirai development explored a **procedural visual generator** built in browser canvas.
+
+That experiment is preserved as:
+
+`legacy-image-generator.html`
+
+It uses local browser rendering, palettes, abstract forms, symbolic prompts, and poetic captions. It should be understood as a **legacy procedural visual studio**, not as evidence that a diffusion model or remote image-generation service is currently connected.
+
+The repository’s historical `data/` and `notes.md` material may still describe that earlier visual direction. They are preserved for continuity and should not be interpreted as the current canonical Moirai role.
+
+---
+
+## Local-First Direction
+
+The public Moirai page uses plain HTML and CSS with system/local font stacks and no font CDN dependency.
+
+Moirai’s current specialist identity is intentionally conservative about execution claims, external services, permissions, authorship, and persistence.
+
+---
+
+## Founder
+
+**Jennifer Kay Pearl**
+
+Moirai is part of the wider Verve N Veda / Noema / NAIB specialist ecosystem.

@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Legacy Moirai procedural visual studio — preserved browser-canvas experiment.">
+<meta name="theme-color" content="#0e0e0f">
+<meta name="color-scheme" content="dark">
+<title>Moirai · Legacy Procedural Visual Studio</title>
+<style>
+:root{
+  --bg:#0e0e0f;
+  --panel:#17181b;
+  --panel2:#202226;
+  --accent:#ff8859;
+  --muted:#d7d7d7;
+  --soft:#9fa5ab;
+  --line:rgba(255,255,255,.09);
+  --radius:16px;
+  --font:"Avenir Next","Segoe UI Variable Text","Segoe UI",Helvetica,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;min-height:100vh;color:var(--muted);background:var(--bg);
+  font-family:var(--font);line-height:1.6
+}
+button,select{font:inherit}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{width:min(calc(100% - 32px),960px);margin:auto}
+.topbar{
+  border-bottom:1px solid var(--line);
+  background:#111215
+}
+.topbar-inner{
+  min-height:58px;display:flex;align-items:center;justify-content:space-between;gap:14px
+}
+.back{
+  text-decoration:none;font-size:12px;letter-spacing:.08em;text-transform:uppercase
+}
+.badge{
+  color:var(--accent);font-size:11px;letter-spacing:.12em;text-transform:uppercase
+}
+main{padding:48px 0 70px}
+.intro{text-align:center;margin-bottom:28px}
+.intro h1{
+  margin:0;color:#fff;font-size:clamp(2.3rem,6vw,4.3rem);line-height:1
+}
+.intro p{max-width:700px;margin:16px auto 0;color:var(--soft)}
+.notice{
+  max-width:760px;margin:22px auto 0;padding:12px 14px;
+  border:1px solid rgba(255,136,89,.3);border-radius:12px;
+  color:#ffd8c7;background:rgba(255,136,89,.07);font-size:13px
+}
+section{
+  margin-top:18px;padding:24px;border:1px solid var(--line);border-radius:var(--radius);
+  background:rgba(255,255,255,.025);box-shadow:0 6px 24px rgba(0,0,0,.35)
+}
+.controls{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px
+}
+label{display:block;margin-bottom:5px;color:#fff;font-size:12px;font-weight:600}
+select{
+  width:100%;padding:12px;border:1px solid var(--line);border-radius:12px;
+  color:#fff;background:var(--panel2)
+}
+.generate{
+  width:100%;margin-top:18px;padding:13px 18px;border:0;border-radius:12px;
+  color:#fff;background:linear-gradient(180deg,var(--accent),#ff6e3a);
+  cursor:pointer;font-weight:700
+}
+.generate:hover{filter:brightness(1.05)}
+#canvasWrap{margin-top:18px}
+canvas{
+  display:block;width:100%;height:auto;border-radius:var(--radius);
+  box-shadow:0 0 24px rgba(0,0,0,.6)
+}
+.caption{margin-top:14px;color:#f2f2f2;font-size:1.05rem;text-align:center}
+.meta{margin-top:24px;color:var(--soft);font-size:12px;text-align:center}
+@media(max-width:680px){.controls{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="back" href="index.html">← Back to Moirai</a>
+    <span class="badge">Legacy Procedural Visual Studio</span>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="intro">
+    <h1>Moirai · Legacy Visual Studio</h1>
+    <p>
+      A preserved browser-canvas experiment from an earlier Moirai direction.
+      It combines symbolic prompts, palettes, abstract procedural rendering, and poetic captions.
+    </p>
+    <div class="notice">
+      This is a local procedural canvas renderer. It is not presented as a connected diffusion model,
+      remote image-generation service, or current definition of Moirai’s specialist role.
+    </div>
+  </div>
+
+  <section aria-labelledby="controlsTitle">
+    <h2 id="controlsTitle">Build a visual study</h2>
+
+    <div class="controls">
+      <div>
+        <label for="theme">Theme / Concept</label>
+        <select id="theme">
+          <option value="">Random</option>
+          <option>Freedom</option>
+          <option>Dreams</option>
+          <option>Melancholy</option>
+          <option>Hope</option>
+          <option>Rebirth</option>
+          <option>Light</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="emotion">Emotion / Mood</label>
+        <select id="emotion">
+          <option value="">Random</option>
+          <option>Peaceful</option>
+          <option>Passionate</option>
+          <option>Mysterious</option>
+          <option>Joyful</option>
+          <option>Reflective</option>
+          <option>Bold</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="symbol">Symbol / Object</label>
+        <select id="symbol">
+          <option value="">Random</option>
+          <option>Moon</option>
+          <option>Tree</option>
+          <option>Flame</option>
+          <option>Dove</option>
+          <option>Labyrinth</option>
+          <option>Phoenix</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="style">Artistic Style</label>
+        <select id="style">
+          <option value="">Random</option>
+          <option>Impressionist</option>
+          <option>Minimalist</option>
+          <option>Abstract</option>
+          <option>Fantasy</option>
+          <option>Surreal</option>
+        </select>
+      </div>
+    </div>
+
+    <button class="generate" id="generate" type="button">Generate Procedural Study</button>
+    <div id="canvasWrap" aria-live="polite"></div>
+  </section>
+
+  <p class="meta">
+    Preserved as historical creative-development material. No admin gate, external font dependency,
+    or remote execution claim is included in this legacy copy.
+  </p>
+</main>
+
+<script>
+const palettes=[
+  {name:"Sunset Serenity",colors:["#FF6E3A","#FF8A59","#FFD1A4","#FFE1C6","#2C1B17"]},
+  {name:"Forest Whisper",colors:["#2E4E1F","#6B8E23","#A9C985","#D4EAC7","#E5F3DB"]},
+  {name:"Dreamy Pastels",colors:["#FADADD","#FFD9E8","#C9E4FF","#E2FFE2","#FFF0B3"]},
+  {name:"Bold Contrast",colors:["#FF3D00","#00FFD1","#FFEB00","#2C003E","#FF6E3A"]}
+];
+
+const templates=[
+  "The {symbol} {verb} through the {adjective} {theme}.",
+  "A {adjective} {symbol} {verb} within {emotion}.",
+  "In {emotion}, the {symbol} {verb} beneath {theme}."
+];
+
+const adjectives=["radiant","serene","mystic","luminous","gentle","fiery"];
+const verbs=["rises","whispers","glows","flows","lingers","awakens"];
+
+const rand=a=>a[Math.floor(Math.random()*a.length)];
+
+document.getElementById("generate").addEventListener("click",()=>{
+  const theme=document.getElementById("theme").value||rand(["Freedom","Dreams","Hope","Twilight"]);
+  const emotion=document.getElementById("emotion").value||rand(["Peaceful","Passionate","Mysterious","Joyful"]);
+  const symbol=document.getElementById("symbol").value||rand(["Moon","Tree","Flame","Dove"]);
+  const style=document.getElementById("style").value||rand(["Abstract","Fantasy","Surreal"]);
+  const palette=rand(palettes);
+  renderCanvas(theme,emotion,symbol,style,palette);
+});
+
+function renderCanvas(theme,emotion,symbol,style,palette){
+  const wrap=document.getElementById("canvasWrap");
+  wrap.innerHTML="";
+
+  const canvas=document.createElement("canvas");
+  canvas.width=800;
+  canvas.height=500;
+
+  const ctx=canvas.getContext("2d");
+  const gradient=ctx.createLinearGradient(0,0,0,canvas.height);
+  gradient.addColorStop(0,palette.colors[0]);
+  gradient.addColorStop(1,palette.colors[3]);
+  ctx.fillStyle=gradient;
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+
+  for(let i=0;i<40;i++){
+    ctx.beginPath();
+    const radius=Math.random()*80+10;
+    ctx.arc(Math.random()*800,Math.random()*500,radius,0,Math.PI*2);
+    ctx.fillStyle=palette.colors[Math.floor(Math.random()*palette.colors.length)]+"22";
+    ctx.fill();
+  }
+
+  const imageData=ctx.getImageData(0,0,canvas.width,canvas.height);
+  for(let i=0;i<imageData.data.length;i+=4){
+    imageData.data[i+3]=Math.max(0,imageData.data[i+3]-Math.random()*10);
+  }
+  ctx.putImageData(imageData,0,0);
+  wrap.appendChild(canvas);
+
+  const line=rand(templates)
+    .replace("{theme}",theme.toLowerCase())
+    .replace("{emotion}",emotion.toLowerCase())
+    .replace("{symbol}",symbol.toLowerCase())
+    .replace("{adjective}",rand(adjectives))
+    .replace("{verb}",rand(verbs));
+
+  const caption=document.createElement("div");
+  caption.className="caption";
+  caption.textContent=`${line} — Style: ${style}; Palette: ${palette.name}`;
+  wrap.appendChild(caption);
+}
+</script>
+</body>
+</html>
