@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Moiria — Music Mentor of The Refrain.">
+<meta name="theme-color" content="#f7f1e7">
+<title>Moiria · Music Mentor · The Refrain</title>
+<style>
+:root{
+  --paper:#f7f1e7;
+  --ink:#12345a;
+  --blue:#1e5d83;
+  --blue-soft:#7fb1c7;
+  --gold:#b68a35;
+  --lav:#a698c8;
+  --line:rgba(18,52,90,.18);
+  --shadow:0 24px 66px rgba(18,52,90,.13);
+  --r:11px;
+  --max:1080px;
+  --serif:Georgia,"Times New Roman",serif;
+  --sans:"Avenir Next","Segoe UI",Arial,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 15% 10%,rgba(127,177,199,.14),transparent 30rem),
+    radial-gradient(circle at 86% 22%,rgba(182,138,53,.13),transparent 28rem),
+    var(--paper);
+  font-family:var(--sans);
+  line-height:1.65;
+}
+a{color:inherit}
+.wrap{width:min(calc(100% - 32px),var(--max));margin:auto}
+header{
+  position:sticky;top:0;z-index:20;
+  border-bottom:1px solid var(--line);
+  background:rgba(247,241,231,.94);
+  backdrop-filter:blur(14px);
+}
+.nav{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+.mark{
+  width:42px;height:42px;display:grid;place-items:center;
+  border:1px solid var(--gold);border-radius:50%;
+  color:var(--ink);background:#fffaf2;
+  font:500 22px var(--serif);
+}
+.brand strong{font:500 18px var(--serif);letter-spacing:.03em}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav a{
+  padding:8px 10px;border-radius:7px;text-decoration:none;
+  font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;
+}
+nav a:hover{background:rgba(30,93,131,.08)}
+.hero{padding:72px 18px 82px}
+.hero-grid{
+  display:grid;grid-template-columns:minmax(0,.9fr) minmax(340px,1.1fr);
+  gap:55px;align-items:center;
+}
+.art-card{
+  overflow:hidden;border:1px solid var(--line);border-radius:21px;
+  background:#fffaf2;box-shadow:var(--shadow);
+}
+.art-card img{display:block;width:100%;height:auto}
+.eyebrow{
+  margin:0;color:var(--gold);font-size:.78rem;letter-spacing:.18em;
+  text-transform:uppercase;
+}
+h1{
+  margin:13px 0 0;color:var(--ink);
+  font:500 clamp(4.8rem,10vw,8rem)/.88 var(--serif);
+  letter-spacing:-.045em;
+}
+.subtitle{
+  margin:18px 0 0;color:var(--blue);
+  font-size:.86rem;letter-spacing:.20em;text-transform:uppercase;
+}
+.lead{
+  margin:24px 0 0;color:#3e5871;
+  font:400 clamp(1.05rem,2vw,1.28rem)/1.8 var(--serif);
+}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+.btn{
+  min-height:46px;display:inline-flex;align-items:center;justify-content:center;
+  padding:11px 16px;border-radius:7px;text-decoration:none;
+  font-size:.76rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+}
+.primary{color:#fff;background:var(--ink)}
+.secondary{border:1px solid var(--line);background:#fffaf2}
+.section{padding:70px 18px}
+.section.alt{border-block:1px solid var(--line);background:rgba(255,255,255,.44)}
+.heading{max-width:780px;margin:0 auto 30px;text-align:center}
+.heading p:first-child{
+  margin:0;color:var(--gold);font-size:.76rem;letter-spacing:.16em;text-transform:uppercase
+}
+.heading h2{
+  margin:10px 0 0;font:500 clamp(2.2rem,5vw,4rem)/1 var(--serif)
+}
+.heading p:last-child{max-width:680px;margin:14px auto 0;color:#5e7182}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{
+  padding:22px;border:1px solid var(--line);border-radius:var(--r);
+  background:#fffaf2;box-shadow:0 12px 33px rgba(18,52,90,.07);
+}
+.card h3{margin:0;font:600 1.15rem var(--serif)}
+.card p{margin:10px 0 0;color:#607486;font-size:.9rem}
+.flow{
+  max-width:840px;margin:auto;padding:24px;border:1px solid var(--line);
+  border-radius:var(--r);background:#fffaf2;text-align:center;
+  font:500 clamp(1.6rem,4vw,2.6rem) var(--serif);
+}
+footer{padding:32px 18px;text-align:center;color:#677b8c;font-size:.8rem}
+@media(max-width:850px){
+  .hero-grid{grid-template-columns:1fr}
+  .art-card{max-width:620px;margin:auto}
+  .hero-copy{text-align:center}
+  .actions{justify-content:center}
+  .cards{grid-template-columns:1fr}
+}
+@media(max-width:620px){nav{display:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="./"><span class="mark">M</span><strong>Moiria</strong></a>
+    <nav aria-label="Primary">
+      <a href="#mentor">Music Mentor</a>
+      <a href="#pathways">Pathways</a>
+      <a href="https://vervenveda.com/the_refrain.github.io/">The Refrain</a>
+      <a href="https://artist1970.github.io/noema-ai.github.io/">NAIB</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="art-card">
+      <img src="assets/moiria-the-refrain.png" alt="Moiria Music Mentor and The Refrain Music Hub watercolor identity artwork">
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow">The Refrain · Music Hub</p>
+      <h1>Moiria</h1>
+      <p class="subtitle">Music Mentor</p>
+      <p class="lead">
+        A thoughtful guide for melody, harmony, rhythm, songwriting, composition,
+        practice, performance preparation and the many musical pathways of The Refrain.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="https://vervenveda.com/the_refrain.github.io/">Enter The Refrain</a>
+        <a class="btn secondary" href="#mentor">Meet Moiria</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="mentor">
+  <div class="wrap">
+    <div class="heading">
+      <p>Her role</p>
+      <h2>Guide the musician. Keep the music theirs.</h2>
+      <p>
+        Moiria helps people understand, shape and practice musical ideas without taking
+        authorship away from the person creating them.
+      </p>
+    </div>
+    <div class="flow">Flow · Create · Connect</div>
+  </div>
+</section>
+
+<section class="section" id="pathways">
+  <div class="wrap">
+    <div class="heading">
+      <p>Music pathways</p>
+      <h2>From first idea to deeper craft.</h2>
+      <p>Moiria can help organize a next step and guide people toward the appropriate Refrain pathway.</p>
+    </div>
+    <div class="cards">
+      <article class="card"><h3>Create</h3><p>Melody, songwriting, composition, arrangement, instrumentation and musical form.</p></article>
+      <article class="card"><h3>Learn</h3><p>Music theory, ear training, rhythm, harmony, listening and structured study.</p></article>
+      <article class="card"><h3>Develop</h3><p>Practice planning, rehearsal, performance preparation, recording and production pathways.</p></article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>Moiria · Music Mentor · The Refrain · Verve N Veda</footer>
+</body>
+</html>

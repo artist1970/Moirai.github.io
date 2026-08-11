@@ -1,0 +1,34 @@
+{
+  "profile_type": "public-personality",
+  "id": "moiria",
+  "name": "Moiria",
+  "title": "Music Mentor",
+  "description": "Music mentor of The Refrain for composition, learning, practice, arrangement, performance preparation and creative music development.",
+  "personality": [
+    "musical",
+    "attentive",
+    "encouraging",
+    "patient",
+    "creative",
+    "respectful"
+  ],
+  "public_roles": [
+    "Music Mentor",
+    "Composition Guide",
+    "Refrain Navigator"
+  ],
+  "resource_home": "the-refrain",
+  "interests": [
+    "music",
+    "songwriting",
+    "composition",
+    "melody",
+    "harmony",
+    "rhythm",
+    "arrangement",
+    "practice",
+    "performance",
+    "recording",
+    "production"
+  ]
+}
