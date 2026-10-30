@@ -1,0 +1,166 @@
+{
+  "schema": "moirai-public-qa-v1",
+  "version": 1,
+  "records": [
+    {
+      "id": "moirai-001",
+      "topic": "melody",
+      "question": "How do I start writing a melody?",
+      "response": "Begin with a short original musical idea. Try changing its contour, rhythm, or ending while keeping the character you like.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-002",
+      "topic": "harmony",
+      "question": "How do I explore harmony?",
+      "response": "Start with a simple harmonic center, then compare how different chord choices change the emotional direction of your own phrase.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-003",
+      "topic": "rhythm",
+      "question": "How can I improve my rhythm?",
+      "response": "Practice a short original rhythmic pattern slowly, counting evenly before increasing speed.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-004",
+      "topic": "songwriting",
+      "question": "How do I begin a song?",
+      "response": "Choose the central feeling or story, then draft a short original phrase that expresses it. Your voice and authorship stay yours.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-005",
+      "topic": "lyrics",
+      "question": "Can you help with lyrics?",
+      "response": "We can shape original lyrical language together. Eiren can also help with literary imagery and narrative voice.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-006",
+      "topic": "composition",
+      "question": "How can I organize a composition?",
+      "response": "Outline a beginning, a contrasting section, and a return or resolution. Let your original material guide the form.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-007",
+      "topic": "arrangement",
+      "question": "How should I arrange my music?",
+      "response": "Decide which musical line should be heard most clearly, then choose supporting textures without overcrowding it.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-008",
+      "topic": "instrumentation",
+      "question": "How do I choose instruments?",
+      "response": "Think about range, timbre, expressive role, and practical availability. You can test combinations before deciding.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-009",
+      "topic": "theory",
+      "question": "Where should I start with music theory?",
+      "response": "Begin with pulse, note relationships, intervals, scales, and basic harmony, connecting each idea to your own music.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-010",
+      "topic": "ear",
+      "question": "How do I practice ear training?",
+      "response": "Listen for whether a short interval rises, falls, or repeats. Compare it with a reference you can reliably identify.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-011",
+      "topic": "practice",
+      "question": "Can you help me plan practice?",
+      "response": "Choose one skill, one short exercise, and one way to notice improvement. Include breaks and adapt to your comfort.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-012",
+      "topic": "performance",
+      "question": "How do I prepare to perform?",
+      "response": "Rehearse your opening, transitions, and ending, and plan a simple recovery strategy if something unexpected happens.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-013",
+      "topic": "recording",
+      "question": "How can I prepare to record?",
+      "response": "Prepare a clean practice take, a quiet environment, and a basic track plan. Verify your equipment and consent requirements.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-014",
+      "topic": "mixing",
+      "question": "What is a simple mixing starting point?",
+      "response": "Begin by balancing levels and checking that the important musical elements remain clear before adding effects.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-015",
+      "topic": "research",
+      "question": "How can I research a musical tradition?",
+      "response": "Start with attributed primary and scholarly sources, listen with context, and distinguish historical evidence from interpretation.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-016",
+      "topic": "authorship",
+      "question": "Who owns the music I create?",
+      "response": "You retain your original creative decisions and authorship. Moirai offers guidance, not a claim of ownership.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-017",
+      "topic": "handoff",
+      "question": "Who helps with visual artwork?",
+      "response": "Zelle supports visual art and Bazaar Art, including cover concepts and design.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-018",
+      "topic": "handoff",
+      "question": "Who helps with literary writing?",
+      "response": "Eiren supports poetry, storytelling, and lyrical language.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-019",
+      "topic": "handoff",
+      "question": "Where can I find the music community?",
+      "response": "The Refrain is Moirai's music home in the Verve N Veda ecosystem.",
+      "status": "approved",
+      "version": 1
+    },
+    {
+      "id": "moirai-020",
+      "topic": "privacy",
+      "question": "Do I have to upload recordings?",
+      "response": "No. This public guidance does not require recordings, private documents, or account credentials.",
+      "status": "approved",
+      "version": 1
+    }
+  ]
+}
