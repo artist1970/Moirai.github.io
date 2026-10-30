@@ -1,0 +1,18 @@
+{
+  "schema": "vnv-toolbar-normalization-v1",
+  "counts": {
+    "html": 2,
+    "eligible": 2,
+    "already": 0,
+    "changed": 2,
+    "protected": 0,
+    "internal": 0,
+    "fragments": 0,
+    "legacyRemoved": 0,
+    "duplicatesCollapsed": 0
+  },
+  "changed": [
+    "index.html",
+    "legacy-image-generator.html"
+  ]
+}
