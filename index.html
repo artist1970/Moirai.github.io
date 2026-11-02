@@ -40,7 +40,7 @@ body{
     radial-gradient(circle at 89% 16%,rgba(234,218,183,.32),transparent 30rem),
     linear-gradient(180deg,var(--paper-2),var(--paper));
   font-family:var(--sans);
-  font-size:15px;
+  font-size:16px;
   line-height:1.7;
   -webkit-font-smoothing:antialiased;
 }
@@ -244,32 +244,18 @@ footer{
   html{scroll-behavior:auto}
   .button{transition:none}
 }
+
+/* Academy content typography: shared ecosystem UI is intentionally excluded. */
+main :is(p,li,label,input,textarea,button,select,a,.eyebrow,.kicker,.art-note){font-size:max(16px,1em)}
+main :is(.eyebrow,.kicker){font-size:16px;letter-spacing:.12em}
+main .hero h1{font-size:clamp(58px,9vw,112px)}
+main .hero h1 span{font-size:clamp(16px,2vw,22px)}
+footer{background:#173047;color:#f4eee5;font-size:16px}
 </style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="./" aria-label="Moirai home">
-      <span class="brand-mark" aria-hidden="true">M</span>
-      <span class="brand-copy">
-        <strong>Moirai</strong>
-        <small>Music Mentor</small>
-      </span>
-    </a>
-
-    <a class="site-identity" href="https://vervenveda.com/the_refrain.github.io/">
-      <strong>The Refrain</strong>
-      <small>Music Hub</small>
-    </a>
-
-    <div class="header-actions">
-      <a class="header-link" href="#pathways">Pathways</a>
-      <a class="header-link" href="https://vervenveda.com/the_refrain.github.io/">Enter The Refrain</a>
-    </div>
-  </div>
-</header>
 
 <main id="main">
   <section class="hero">
@@ -405,6 +391,11 @@ footer{
 </footer>
 <script src="moirai-conversation-v1.js"></script>
 <script>(function(){const input=document.getElementById("moirai-message"),output=document.getElementById("moirai-answer");document.getElementById("moirai-ask").addEventListener("click",function(){output.textContent=window.MoiraiConversation?.respond(input.value)||"Moirai is temporarily unavailable.";});document.getElementById("moirai-clear").addEventListener("click",function(){input.value="";output.textContent="A fresh musical beginning. What would you like to explore?";input.focus();});})();</script>
+<script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
+<script>VNV_HEADER.mount({title:"Moirai",subtitle:"Khaemenes Academy · Music Mentor",home:"https://vervenveda.com/"});</script>
+<script src="https://vervenveda.com/assets/vnv-ticker-autopopulate.js"></script>
+<script>VNV_TICKER.autoPopulate({label:"Moirai · Quick Links",max:14});</script>
+<script src="https://vervenveda.com/assets/vnv-333-ticker.js"></script>
 <script src="https://vervenveda.com/assets/vnv-ecosystem-toolbar.js"></script>
 </body>
 </html>
