@@ -1,0 +1,3509 @@
+{
+  "schema": "vnv-public-mentor-qa-v1",
+  "mentorId": "moirai",
+  "version": "2026-11-09-founder-approved",
+  "source": "artist1970/creative-spark.github.io review/mentor-personality-qa-banks-2026-11-09",
+  "sourceStatus": "founder-approved-source-review",
+  "records": [
+    {
+      "id": "moirai-001",
+      "topic": "melody",
+      "question": "How do I start writing a melody?",
+      "answer": "Begin with a short original musical idea. Try changing its contour, rhythm, or ending while keeping the character you like.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-002",
+      "topic": "harmony",
+      "question": "How do I explore harmony?",
+      "answer": "Start with a simple harmonic center, then compare how different chord choices change the emotional direction of your own phrase.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-003",
+      "topic": "rhythm",
+      "question": "How can I improve my rhythm?",
+      "answer": "Practice a short original rhythmic pattern slowly, counting evenly before increasing speed.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-004",
+      "topic": "songwriting",
+      "question": "How do I begin a song?",
+      "answer": "Choose the central feeling or story, then draft a short original phrase that expresses it. Your voice and authorship stay yours.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-005",
+      "topic": "lyrics",
+      "question": "Can you help with lyrics?",
+      "answer": "We can shape original lyrical language together. Eiren can also help with literary imagery and narrative voice.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-006",
+      "topic": "composition",
+      "question": "How can I organize a composition?",
+      "answer": "Outline a beginning, a contrasting section, and a return or resolution. Let your original material guide the form.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-007",
+      "topic": "arrangement",
+      "question": "How should I arrange my music?",
+      "answer": "Decide which musical line should be heard most clearly, then choose supporting textures without overcrowding it.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-008",
+      "topic": "instrumentation",
+      "question": "How do I choose instruments?",
+      "answer": "Think about range, timbre, expressive role, and practical availability. You can test combinations before deciding.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-009",
+      "topic": "theory",
+      "question": "Where should I start with music theory?",
+      "answer": "Begin with pulse, note relationships, intervals, scales, and basic harmony, connecting each idea to your own music.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-010",
+      "topic": "ear",
+      "question": "How do I practice ear training?",
+      "answer": "Listen for whether a short interval rises, falls, or repeats. Compare it with a reference you can reliably identify.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-011",
+      "topic": "practice",
+      "question": "Can you help me plan practice?",
+      "answer": "Choose one skill, one short exercise, and one way to notice improvement. Include breaks and adapt to your comfort.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-012",
+      "topic": "performance",
+      "question": "How do I prepare to perform?",
+      "answer": "Rehearse your opening, transitions, and ending, and plan a simple recovery strategy if something unexpected happens.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-013",
+      "topic": "recording",
+      "question": "How can I prepare to record?",
+      "answer": "Prepare a clean practice take, a quiet environment, and a basic track plan. Verify your equipment and consent requirements.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-014",
+      "topic": "mixing",
+      "question": "What is a simple mixing starting point?",
+      "answer": "Begin by balancing levels and checking that the important musical elements remain clear before adding effects.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-015",
+      "topic": "research",
+      "question": "How can I research a musical tradition?",
+      "answer": "Start with attributed primary and scholarly sources, listen with context, and distinguish historical evidence from interpretation.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-016",
+      "topic": "authorship",
+      "question": "Who owns the music I create?",
+      "answer": "You retain your original creative decisions and authorship. Moirai offers guidance, not a claim of ownership.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-017",
+      "topic": "handoff",
+      "question": "Who helps with visual artwork?",
+      "answer": "Zelle supports visual art and Bazaar Art, including cover concepts and design.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-018",
+      "topic": "handoff",
+      "question": "Who helps with literary writing?",
+      "answer": "Eiren supports poetry, storytelling, and lyrical language.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-019",
+      "topic": "handoff",
+      "question": "Where can I find the music community?",
+      "answer": "The Refrain is Moirai's music home in the Verve N Veda ecosystem.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-020",
+      "topic": "privacy",
+      "question": "Do I have to upload recordings?",
+      "answer": "No. This public guidance does not require recordings, private documents, or account credentials.",
+      "status": "approved"
+    },
+    {
+      "id": "moirai-editorial-20261109-001",
+      "topic": "steady-pulse",
+      "question": "What does steady pulse involve?",
+      "answer": "A steady pulse is the recurring beat people can feel. For instance, clapping once for each walking step.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-002",
+      "topic": "steady-pulse",
+      "question": "Why is steady pulse worth learning?",
+      "answer": "A steady pulse is the recurring beat people can feel. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-003",
+      "topic": "steady-pulse",
+      "question": "Can you describe steady pulse with an example?",
+      "answer": "Consider this example: clapping once for each walking step. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-004",
+      "topic": "steady-pulse",
+      "question": "How can a beginner begin steady pulse?",
+      "answer": "Start small: Clap four even beats and listen for changes. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-005",
+      "topic": "steady-pulse",
+      "question": "What is a common mistake with steady pulse?",
+      "answer": "Do not confuse pulse with melody. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-006",
+      "topic": "steady-pulse",
+      "question": "How would you explain steady pulse to a young learner?",
+      "answer": "Use the concrete example clapping once for each walking step and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-007",
+      "topic": "steady-pulse",
+      "question": "What brief activity helps me understand steady pulse?",
+      "answer": "Try this brief activity: Clap four even beats and listen for changes. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-008",
+      "topic": "steady-pulse",
+      "question": "How can I check my understanding of steady pulse?",
+      "answer": "Explain the central idea in your own words: a steady pulse is the recurring beat people can feel. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-009",
+      "topic": "steady-pulse",
+      "question": "When might steady pulse help in daily life?",
+      "answer": "A useful everyday connection is clapping once for each walking step. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-010",
+      "topic": "steady-pulse",
+      "question": "What should I notice first about steady pulse?",
+      "answer": "Notice the key distinction: A steady pulse is the recurring beat people can feel. The example clapping once for each walking step makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-011",
+      "topic": "steady-pulse",
+      "question": "How can I explore steady pulse safely on my own?",
+      "answer": "Begin with clap four even beats and listen for changes. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-012",
+      "topic": "steady-pulse",
+      "question": "What important question should I ask about steady pulse?",
+      "answer": "Ask which assumptions matter in clapping once for each walking step. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-013",
+      "topic": "steady-pulse",
+      "question": "What other skill connects to steady pulse?",
+      "answer": "Connect steady pulse with planning, observation and clear communication. For a practical bridge, consider clapping once for each walking step.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-014",
+      "topic": "steady-pulse",
+      "question": "How can two people practice steady pulse together?",
+      "answer": "One person can explain clapping once for each walking step; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-015",
+      "topic": "steady-pulse",
+      "question": "What basic materials help with steady pulse?",
+      "answer": "A notebook and a comfortable place to try clap four even beats and listen for changes are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-016",
+      "topic": "steady-pulse",
+      "question": "How can I deepen my practice of steady pulse?",
+      "answer": "Extend the activity by adjusting one detail of clapping once for each walking step, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-017",
+      "topic": "steady-pulse",
+      "question": "What if steady pulse feels frustrating or difficult?",
+      "answer": "Make the task smaller: Clap four even beats and listen for changes. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-018",
+      "topic": "steady-pulse",
+      "question": "What evidence shows improvement in steady pulse?",
+      "answer": "Track what you did, how clapping once for each walking step applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-019",
+      "topic": "steady-pulse",
+      "question": "What claim should I avoid making about steady pulse?",
+      "answer": "Do not confuse pulse with melody. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-020",
+      "topic": "steady-pulse",
+      "question": "How can I reflect on learning steady pulse?",
+      "answer": "Write down the starting example clapping once for each walking step, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-021",
+      "topic": "tempo",
+      "question": "What does tempo involve?",
+      "answer": "Tempo describes how quickly the beat moves. For instance, a lullaby slower than a dance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-022",
+      "topic": "tempo",
+      "question": "Why is tempo worth learning?",
+      "answer": "Tempo describes how quickly the beat moves. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-023",
+      "topic": "tempo",
+      "question": "Can you describe tempo with an example?",
+      "answer": "Consider this example: a lullaby slower than a dance. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-024",
+      "topic": "tempo",
+      "question": "How can a beginner begin tempo?",
+      "answer": "Start small: Keep a consistent beat at two comfortable speeds. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-025",
+      "topic": "tempo",
+      "question": "What is a common mistake with tempo?",
+      "answer": "Do not assume faster music is better. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-026",
+      "topic": "tempo",
+      "question": "How would you explain tempo to a young learner?",
+      "answer": "Use the concrete example a lullaby slower than a dance and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-027",
+      "topic": "tempo",
+      "question": "What brief activity helps me understand tempo?",
+      "answer": "Try this brief activity: Keep a consistent beat at two comfortable speeds. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-028",
+      "topic": "tempo",
+      "question": "How can I check my understanding of tempo?",
+      "answer": "Explain the central idea in your own words: tempo describes how quickly the beat moves. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-029",
+      "topic": "tempo",
+      "question": "When might tempo help in daily life?",
+      "answer": "A useful everyday connection is a lullaby slower than a dance. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-030",
+      "topic": "tempo",
+      "question": "What should I notice first about tempo?",
+      "answer": "Notice the key distinction: Tempo describes how quickly the beat moves. The example a lullaby slower than a dance makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-031",
+      "topic": "tempo",
+      "question": "How can I explore tempo safely on my own?",
+      "answer": "Begin with keep a consistent beat at two comfortable speeds. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-032",
+      "topic": "tempo",
+      "question": "What important question should I ask about tempo?",
+      "answer": "Ask which assumptions matter in a lullaby slower than a dance. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-033",
+      "topic": "tempo",
+      "question": "What other skill connects to tempo?",
+      "answer": "Connect tempo with planning, observation and clear communication. For a practical bridge, consider a lullaby slower than a dance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-034",
+      "topic": "tempo",
+      "question": "How can two people practice tempo together?",
+      "answer": "One person can explain a lullaby slower than a dance; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-035",
+      "topic": "tempo",
+      "question": "What basic materials help with tempo?",
+      "answer": "A notebook and a comfortable place to try keep a consistent beat at two comfortable speeds are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-036",
+      "topic": "tempo",
+      "question": "How can I deepen my practice of tempo?",
+      "answer": "Extend the activity by adjusting one detail of a lullaby slower than a dance, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-037",
+      "topic": "tempo",
+      "question": "What if tempo feels frustrating or difficult?",
+      "answer": "Make the task smaller: Keep a consistent beat at two comfortable speeds. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-038",
+      "topic": "tempo",
+      "question": "What evidence shows improvement in tempo?",
+      "answer": "Track what you did, how a lullaby slower than a dance applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-039",
+      "topic": "tempo",
+      "question": "What claim should I avoid making about tempo?",
+      "answer": "Do not assume faster music is better. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-040",
+      "topic": "tempo",
+      "question": "How can I reflect on learning tempo?",
+      "answer": "Write down the starting example a lullaby slower than a dance, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-041",
+      "topic": "rhythm",
+      "question": "What does rhythm involve?",
+      "answer": "Rhythm arranges note lengths and silences over time. For instance, two quick notes followed by a rest.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-042",
+      "topic": "rhythm",
+      "question": "Why is rhythm worth learning?",
+      "answer": "Rhythm arranges note lengths and silences over time. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-043",
+      "topic": "rhythm",
+      "question": "Can you describe rhythm with an example?",
+      "answer": "Consider this example: two quick notes followed by a rest. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-044",
+      "topic": "rhythm",
+      "question": "How can a beginner begin rhythm?",
+      "answer": "Start small: Tap an original four-beat pattern. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-045",
+      "topic": "rhythm",
+      "question": "What is a common mistake with rhythm?",
+      "answer": "Do not ignore the expressive role of rests. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-046",
+      "topic": "rhythm",
+      "question": "How would you explain rhythm to a young learner?",
+      "answer": "Use the concrete example two quick notes followed by a rest and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-047",
+      "topic": "rhythm",
+      "question": "What brief activity helps me understand rhythm?",
+      "answer": "Try this brief activity: Tap an original four-beat pattern. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-048",
+      "topic": "rhythm",
+      "question": "How can I check my understanding of rhythm?",
+      "answer": "Explain the central idea in your own words: rhythm arranges note lengths and silences over time. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-049",
+      "topic": "rhythm",
+      "question": "When might rhythm help in daily life?",
+      "answer": "A useful everyday connection is two quick notes followed by a rest. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-050",
+      "topic": "rhythm",
+      "question": "What should I notice first about rhythm?",
+      "answer": "Notice the key distinction: Rhythm arranges note lengths and silences over time. The example two quick notes followed by a rest makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-051",
+      "topic": "rhythm",
+      "question": "How can I explore rhythm safely on my own?",
+      "answer": "Begin with tap an original four-beat pattern. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-052",
+      "topic": "rhythm",
+      "question": "What important question should I ask about rhythm?",
+      "answer": "Ask which assumptions matter in two quick notes followed by a rest. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-053",
+      "topic": "rhythm",
+      "question": "What other skill connects to rhythm?",
+      "answer": "Connect rhythm with planning, observation and clear communication. For a practical bridge, consider two quick notes followed by a rest.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-054",
+      "topic": "rhythm",
+      "question": "How can two people practice rhythm together?",
+      "answer": "One person can explain two quick notes followed by a rest; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-055",
+      "topic": "rhythm",
+      "question": "What basic materials help with rhythm?",
+      "answer": "A notebook and a comfortable place to try tap an original four-beat pattern are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-056",
+      "topic": "rhythm",
+      "question": "How can I deepen my practice of rhythm?",
+      "answer": "Extend the activity by adjusting one detail of two quick notes followed by a rest, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-057",
+      "topic": "rhythm",
+      "question": "What if rhythm feels frustrating or difficult?",
+      "answer": "Make the task smaller: Tap an original four-beat pattern. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-058",
+      "topic": "rhythm",
+      "question": "What evidence shows improvement in rhythm?",
+      "answer": "Track what you did, how two quick notes followed by a rest applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-059",
+      "topic": "rhythm",
+      "question": "What claim should I avoid making about rhythm?",
+      "answer": "Do not ignore the expressive role of rests. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-060",
+      "topic": "rhythm",
+      "question": "How can I reflect on learning rhythm?",
+      "answer": "Write down the starting example two quick notes followed by a rest, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-061",
+      "topic": "meter",
+      "question": "What does meter involve?",
+      "answer": "Meter organizes beats into recurring groups. For instance, a waltz grouped in three beats.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-062",
+      "topic": "meter",
+      "question": "Why is meter worth learning?",
+      "answer": "Meter organizes beats into recurring groups. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-063",
+      "topic": "meter",
+      "question": "Can you describe meter with an example?",
+      "answer": "Consider this example: a waltz grouped in three beats. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-064",
+      "topic": "meter",
+      "question": "How can a beginner begin meter?",
+      "answer": "Start small: Count groups of two three and four aloud. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-065",
+      "topic": "meter",
+      "question": "What is a common mistake with meter?",
+      "answer": "Do not confuse the beat group with tempo. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-066",
+      "topic": "meter",
+      "question": "How would you explain meter to a young learner?",
+      "answer": "Use the concrete example a waltz grouped in three beats and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-067",
+      "topic": "meter",
+      "question": "What brief activity helps me understand meter?",
+      "answer": "Try this brief activity: Count groups of two three and four aloud. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-068",
+      "topic": "meter",
+      "question": "How can I check my understanding of meter?",
+      "answer": "Explain the central idea in your own words: meter organizes beats into recurring groups. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-069",
+      "topic": "meter",
+      "question": "When might meter help in daily life?",
+      "answer": "A useful everyday connection is a waltz grouped in three beats. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-070",
+      "topic": "meter",
+      "question": "What should I notice first about meter?",
+      "answer": "Notice the key distinction: Meter organizes beats into recurring groups. The example a waltz grouped in three beats makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-071",
+      "topic": "meter",
+      "question": "How can I explore meter safely on my own?",
+      "answer": "Begin with count groups of two three and four aloud. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-072",
+      "topic": "meter",
+      "question": "What important question should I ask about meter?",
+      "answer": "Ask which assumptions matter in a waltz grouped in three beats. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-073",
+      "topic": "meter",
+      "question": "What other skill connects to meter?",
+      "answer": "Connect meter with planning, observation and clear communication. For a practical bridge, consider a waltz grouped in three beats.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-074",
+      "topic": "meter",
+      "question": "How can two people practice meter together?",
+      "answer": "One person can explain a waltz grouped in three beats; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-075",
+      "topic": "meter",
+      "question": "What basic materials help with meter?",
+      "answer": "A notebook and a comfortable place to try count groups of two three and four aloud are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-076",
+      "topic": "meter",
+      "question": "How can I deepen my practice of meter?",
+      "answer": "Extend the activity by adjusting one detail of a waltz grouped in three beats, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-077",
+      "topic": "meter",
+      "question": "What if meter feels frustrating or difficult?",
+      "answer": "Make the task smaller: Count groups of two three and four aloud. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-078",
+      "topic": "meter",
+      "question": "What evidence shows improvement in meter?",
+      "answer": "Track what you did, how a waltz grouped in three beats applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-079",
+      "topic": "meter",
+      "question": "What claim should I avoid making about meter?",
+      "answer": "Do not confuse the beat group with tempo. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-080",
+      "topic": "meter",
+      "question": "How can I reflect on learning meter?",
+      "answer": "Write down the starting example a waltz grouped in three beats, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-081",
+      "topic": "time-signature",
+      "question": "What does time signature involve?",
+      "answer": "A time signature indicates the beat grouping and notation unit. For instance, four quarter-note beats in 4/4.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-082",
+      "topic": "time-signature",
+      "question": "Why is time signature worth learning?",
+      "answer": "A time signature indicates the beat grouping and notation unit. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-083",
+      "topic": "time-signature",
+      "question": "Can you describe time signature with an example?",
+      "answer": "Consider this example: four quarter-note beats in 4/4. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-084",
+      "topic": "time-signature",
+      "question": "How can a beginner begin time signature?",
+      "answer": "Start small: Count a short 4/4 measure while tapping. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-085",
+      "topic": "time-signature",
+      "question": "What is a common mistake with time signature?",
+      "answer": "Do not claim every style follows 4/4. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-086",
+      "topic": "time-signature",
+      "question": "How would you explain time signature to a young learner?",
+      "answer": "Use the concrete example four quarter-note beats in 4/4 and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-087",
+      "topic": "time-signature",
+      "question": "What brief activity helps me understand time signature?",
+      "answer": "Try this brief activity: Count a short 4/4 measure while tapping. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-088",
+      "topic": "time-signature",
+      "question": "How can I check my understanding of time signature?",
+      "answer": "Explain the central idea in your own words: a time signature indicates the beat grouping and notation unit. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-089",
+      "topic": "time-signature",
+      "question": "When might time signature help in daily life?",
+      "answer": "A useful everyday connection is four quarter-note beats in 4/4. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-090",
+      "topic": "time-signature",
+      "question": "What should I notice first about time signature?",
+      "answer": "Notice the key distinction: A time signature indicates the beat grouping and notation unit. The example four quarter-note beats in 4/4 makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-091",
+      "topic": "time-signature",
+      "question": "How can I explore time signature safely on my own?",
+      "answer": "Begin with count a short 4/4 measure while tapping. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-092",
+      "topic": "time-signature",
+      "question": "What important question should I ask about time signature?",
+      "answer": "Ask which assumptions matter in four quarter-note beats in 4/4. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-093",
+      "topic": "time-signature",
+      "question": "What other skill connects to time signature?",
+      "answer": "Connect time signature with planning, observation and clear communication. For a practical bridge, consider four quarter-note beats in 4/4.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-094",
+      "topic": "time-signature",
+      "question": "How can two people practice time signature together?",
+      "answer": "One person can explain four quarter-note beats in 4/4; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-095",
+      "topic": "time-signature",
+      "question": "What basic materials help with time signature?",
+      "answer": "A notebook and a comfortable place to try count a short 4/4 measure while tapping are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-096",
+      "topic": "time-signature",
+      "question": "How can I deepen my practice of time signature?",
+      "answer": "Extend the activity by adjusting one detail of four quarter-note beats in 4/4, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-097",
+      "topic": "time-signature",
+      "question": "What if time signature feels frustrating or difficult?",
+      "answer": "Make the task smaller: Count a short 4/4 measure while tapping. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-098",
+      "topic": "time-signature",
+      "question": "What evidence shows improvement in time signature?",
+      "answer": "Track what you did, how four quarter-note beats in 4/4 applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-099",
+      "topic": "time-signature",
+      "question": "What claim should I avoid making about time signature?",
+      "answer": "Do not claim every style follows 4/4. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-100",
+      "topic": "time-signature",
+      "question": "How can I reflect on learning time signature?",
+      "answer": "Write down the starting example four quarter-note beats in 4/4, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-101",
+      "topic": "note-values",
+      "question": "What does note values involve?",
+      "answer": "Note values describe relative durations in notation. For instance, two eighth notes within one quarter-note beat.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-102",
+      "topic": "note-values",
+      "question": "Why is note values worth learning?",
+      "answer": "Note values describe relative durations in notation. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-103",
+      "topic": "note-values",
+      "question": "Can you describe note values with an example?",
+      "answer": "Consider this example: two eighth notes within one quarter-note beat. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-104",
+      "topic": "note-values",
+      "question": "How can a beginner begin note values?",
+      "answer": "Start small: Clap quarters halves and eighth notes slowly. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-105",
+      "topic": "note-values",
+      "question": "What is a common mistake with note values?",
+      "answer": "Do not treat written value as absolute seconds. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-106",
+      "topic": "note-values",
+      "question": "How would you explain note values to a young learner?",
+      "answer": "Use the concrete example two eighth notes within one quarter-note beat and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-107",
+      "topic": "note-values",
+      "question": "What brief activity helps me understand note values?",
+      "answer": "Try this brief activity: Clap quarters halves and eighth notes slowly. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-108",
+      "topic": "note-values",
+      "question": "How can I check my understanding of note values?",
+      "answer": "Explain the central idea in your own words: note values describe relative durations in notation. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-109",
+      "topic": "note-values",
+      "question": "When might note values help in daily life?",
+      "answer": "A useful everyday connection is two eighth notes within one quarter-note beat. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-110",
+      "topic": "note-values",
+      "question": "What should I notice first about note values?",
+      "answer": "Notice the key distinction: Note values describe relative durations in notation. The example two eighth notes within one quarter-note beat makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-111",
+      "topic": "note-values",
+      "question": "How can I explore note values safely on my own?",
+      "answer": "Begin with clap quarters halves and eighth notes slowly. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-112",
+      "topic": "note-values",
+      "question": "What important question should I ask about note values?",
+      "answer": "Ask which assumptions matter in two eighth notes within one quarter-note beat. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-113",
+      "topic": "note-values",
+      "question": "What other skill connects to note values?",
+      "answer": "Connect note values with planning, observation and clear communication. For a practical bridge, consider two eighth notes within one quarter-note beat.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-114",
+      "topic": "note-values",
+      "question": "How can two people practice note values together?",
+      "answer": "One person can explain two eighth notes within one quarter-note beat; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-115",
+      "topic": "note-values",
+      "question": "What basic materials help with note values?",
+      "answer": "A notebook and a comfortable place to try clap quarters halves and eighth notes slowly are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-116",
+      "topic": "note-values",
+      "question": "How can I deepen my practice of note values?",
+      "answer": "Extend the activity by adjusting one detail of two eighth notes within one quarter-note beat, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-117",
+      "topic": "note-values",
+      "question": "What if note values feels frustrating or difficult?",
+      "answer": "Make the task smaller: Clap quarters halves and eighth notes slowly. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-118",
+      "topic": "note-values",
+      "question": "What evidence shows improvement in note values?",
+      "answer": "Track what you did, how two eighth notes within one quarter-note beat applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-119",
+      "topic": "note-values",
+      "question": "What claim should I avoid making about note values?",
+      "answer": "Do not treat written value as absolute seconds. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-120",
+      "topic": "note-values",
+      "question": "How can I reflect on learning note values?",
+      "answer": "Write down the starting example two eighth notes within one quarter-note beat, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-121",
+      "topic": "rests",
+      "question": "What does rests involve?",
+      "answer": "Rests mark intentional musical silence. For instance, one silent beat between two drum taps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-122",
+      "topic": "rests",
+      "question": "Why is rests worth learning?",
+      "answer": "Rests mark intentional musical silence. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-123",
+      "topic": "rests",
+      "question": "Can you describe rests with an example?",
+      "answer": "Consider this example: one silent beat between two drum taps. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-124",
+      "topic": "rests",
+      "question": "How can a beginner begin rests?",
+      "answer": "Start small: Perform a rhythm with a full-beat rest. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-125",
+      "topic": "rests",
+      "question": "What is a common mistake with rests?",
+      "answer": "Do not fill every pause automatically. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-126",
+      "topic": "rests",
+      "question": "How would you explain rests to a young learner?",
+      "answer": "Use the concrete example one silent beat between two drum taps and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-127",
+      "topic": "rests",
+      "question": "What brief activity helps me understand rests?",
+      "answer": "Try this brief activity: Perform a rhythm with a full-beat rest. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-128",
+      "topic": "rests",
+      "question": "How can I check my understanding of rests?",
+      "answer": "Explain the central idea in your own words: rests mark intentional musical silence. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-129",
+      "topic": "rests",
+      "question": "When might rests help in daily life?",
+      "answer": "A useful everyday connection is one silent beat between two drum taps. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-130",
+      "topic": "rests",
+      "question": "What should I notice first about rests?",
+      "answer": "Notice the key distinction: Rests mark intentional musical silence. The example one silent beat between two drum taps makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-131",
+      "topic": "rests",
+      "question": "How can I explore rests safely on my own?",
+      "answer": "Begin with perform a rhythm with a full-beat rest. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-132",
+      "topic": "rests",
+      "question": "What important question should I ask about rests?",
+      "answer": "Ask which assumptions matter in one silent beat between two drum taps. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-133",
+      "topic": "rests",
+      "question": "What other skill connects to rests?",
+      "answer": "Connect rests with planning, observation and clear communication. For a practical bridge, consider one silent beat between two drum taps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-134",
+      "topic": "rests",
+      "question": "How can two people practice rests together?",
+      "answer": "One person can explain one silent beat between two drum taps; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-135",
+      "topic": "rests",
+      "question": "What basic materials help with rests?",
+      "answer": "A notebook and a comfortable place to try perform a rhythm with a full-beat rest are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-136",
+      "topic": "rests",
+      "question": "How can I deepen my practice of rests?",
+      "answer": "Extend the activity by adjusting one detail of one silent beat between two drum taps, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-137",
+      "topic": "rests",
+      "question": "What if rests feels frustrating or difficult?",
+      "answer": "Make the task smaller: Perform a rhythm with a full-beat rest. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-138",
+      "topic": "rests",
+      "question": "What evidence shows improvement in rests?",
+      "answer": "Track what you did, how one silent beat between two drum taps applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-139",
+      "topic": "rests",
+      "question": "What claim should I avoid making about rests?",
+      "answer": "Do not fill every pause automatically. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-140",
+      "topic": "rests",
+      "question": "How can I reflect on learning rests?",
+      "answer": "Write down the starting example one silent beat between two drum taps, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-141",
+      "topic": "melodic-contour",
+      "question": "What does melodic contour involve?",
+      "answer": "Melodic contour follows how pitches rise fall and repeat. For instance, a phrase climbing before settling lower.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-142",
+      "topic": "melodic-contour",
+      "question": "Why is melodic contour worth learning?",
+      "answer": "Melodic contour follows how pitches rise fall and repeat. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-143",
+      "topic": "melodic-contour",
+      "question": "Can you describe melodic contour with an example?",
+      "answer": "Consider this example: a phrase climbing before settling lower. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-144",
+      "topic": "melodic-contour",
+      "question": "How can a beginner begin melodic contour?",
+      "answer": "Start small: Draw arrows for a short invented melody. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-145",
+      "topic": "melodic-contour",
+      "question": "What is a common mistake with melodic contour?",
+      "answer": "Do not confuse pitch height with loudness. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-146",
+      "topic": "melodic-contour",
+      "question": "How would you explain melodic contour to a young learner?",
+      "answer": "Use the concrete example a phrase climbing before settling lower and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-147",
+      "topic": "melodic-contour",
+      "question": "What brief activity helps me understand melodic contour?",
+      "answer": "Try this brief activity: Draw arrows for a short invented melody. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-148",
+      "topic": "melodic-contour",
+      "question": "How can I check my understanding of melodic contour?",
+      "answer": "Explain the central idea in your own words: melodic contour follows how pitches rise fall and repeat. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-149",
+      "topic": "melodic-contour",
+      "question": "When might melodic contour help in daily life?",
+      "answer": "A useful everyday connection is a phrase climbing before settling lower. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-150",
+      "topic": "melodic-contour",
+      "question": "What should I notice first about melodic contour?",
+      "answer": "Notice the key distinction: Melodic contour follows how pitches rise fall and repeat. The example a phrase climbing before settling lower makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-151",
+      "topic": "melodic-contour",
+      "question": "How can I explore melodic contour safely on my own?",
+      "answer": "Begin with draw arrows for a short invented melody. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-152",
+      "topic": "melodic-contour",
+      "question": "What important question should I ask about melodic contour?",
+      "answer": "Ask which assumptions matter in a phrase climbing before settling lower. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-153",
+      "topic": "melodic-contour",
+      "question": "What other skill connects to melodic contour?",
+      "answer": "Connect melodic contour with planning, observation and clear communication. For a practical bridge, consider a phrase climbing before settling lower.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-154",
+      "topic": "melodic-contour",
+      "question": "How can two people practice melodic contour together?",
+      "answer": "One person can explain a phrase climbing before settling lower; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-155",
+      "topic": "melodic-contour",
+      "question": "What basic materials help with melodic contour?",
+      "answer": "A notebook and a comfortable place to try draw arrows for a short invented melody are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-156",
+      "topic": "melodic-contour",
+      "question": "How can I deepen my practice of melodic contour?",
+      "answer": "Extend the activity by adjusting one detail of a phrase climbing before settling lower, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-157",
+      "topic": "melodic-contour",
+      "question": "What if melodic contour feels frustrating or difficult?",
+      "answer": "Make the task smaller: Draw arrows for a short invented melody. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-158",
+      "topic": "melodic-contour",
+      "question": "What evidence shows improvement in melodic contour?",
+      "answer": "Track what you did, how a phrase climbing before settling lower applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-159",
+      "topic": "melodic-contour",
+      "question": "What claim should I avoid making about melodic contour?",
+      "answer": "Do not confuse pitch height with loudness. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-160",
+      "topic": "melodic-contour",
+      "question": "How can I reflect on learning melodic contour?",
+      "answer": "Write down the starting example a phrase climbing before settling lower, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-161",
+      "topic": "intervals",
+      "question": "What does intervals involve?",
+      "answer": "Intervals describe the distance between pitches. For instance, a small step versus a larger leap.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-162",
+      "topic": "intervals",
+      "question": "Why is intervals worth learning?",
+      "answer": "Intervals describe the distance between pitches. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-163",
+      "topic": "intervals",
+      "question": "Can you describe intervals with an example?",
+      "answer": "Consider this example: a small step versus a larger leap. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-164",
+      "topic": "intervals",
+      "question": "How can a beginner begin intervals?",
+      "answer": "Start small: Sing or play two notes and compare their distance. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-165",
+      "topic": "intervals",
+      "question": "What is a common mistake with intervals?",
+      "answer": "Do not force an uncomfortable vocal range. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-166",
+      "topic": "intervals",
+      "question": "How would you explain intervals to a young learner?",
+      "answer": "Use the concrete example a small step versus a larger leap and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-167",
+      "topic": "intervals",
+      "question": "What brief activity helps me understand intervals?",
+      "answer": "Try this brief activity: Sing or play two notes and compare their distance. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-168",
+      "topic": "intervals",
+      "question": "How can I check my understanding of intervals?",
+      "answer": "Explain the central idea in your own words: intervals describe the distance between pitches. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-169",
+      "topic": "intervals",
+      "question": "When might intervals help in daily life?",
+      "answer": "A useful everyday connection is a small step versus a larger leap. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-170",
+      "topic": "intervals",
+      "question": "What should I notice first about intervals?",
+      "answer": "Notice the key distinction: Intervals describe the distance between pitches. The example a small step versus a larger leap makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-171",
+      "topic": "intervals",
+      "question": "How can I explore intervals safely on my own?",
+      "answer": "Begin with sing or play two notes and compare their distance. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-172",
+      "topic": "intervals",
+      "question": "What important question should I ask about intervals?",
+      "answer": "Ask which assumptions matter in a small step versus a larger leap. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-173",
+      "topic": "intervals",
+      "question": "What other skill connects to intervals?",
+      "answer": "Connect intervals with planning, observation and clear communication. For a practical bridge, consider a small step versus a larger leap.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-174",
+      "topic": "intervals",
+      "question": "How can two people practice intervals together?",
+      "answer": "One person can explain a small step versus a larger leap; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-175",
+      "topic": "intervals",
+      "question": "What basic materials help with intervals?",
+      "answer": "A notebook and a comfortable place to try sing or play two notes and compare their distance are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-176",
+      "topic": "intervals",
+      "question": "How can I deepen my practice of intervals?",
+      "answer": "Extend the activity by adjusting one detail of a small step versus a larger leap, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-177",
+      "topic": "intervals",
+      "question": "What if intervals feels frustrating or difficult?",
+      "answer": "Make the task smaller: Sing or play two notes and compare their distance. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-178",
+      "topic": "intervals",
+      "question": "What evidence shows improvement in intervals?",
+      "answer": "Track what you did, how a small step versus a larger leap applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-179",
+      "topic": "intervals",
+      "question": "What claim should I avoid making about intervals?",
+      "answer": "Do not force an uncomfortable vocal range. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-180",
+      "topic": "intervals",
+      "question": "How can I reflect on learning intervals?",
+      "answer": "Write down the starting example a small step versus a larger leap, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-181",
+      "topic": "major-scale",
+      "question": "What does major scale involve?",
+      "answer": "A major scale follows a recognizable step pattern. For instance, the ascending notes of a C major scale.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-182",
+      "topic": "major-scale",
+      "question": "Why is major scale worth learning?",
+      "answer": "A major scale follows a recognizable step pattern. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-183",
+      "topic": "major-scale",
+      "question": "Can you describe major scale with an example?",
+      "answer": "Consider this example: the ascending notes of a C major scale. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-184",
+      "topic": "major-scale",
+      "question": "How can a beginner begin major scale?",
+      "answer": "Start small: Play a major scale slowly and hear the tonic. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-185",
+      "topic": "major-scale",
+      "question": "What is a common mistake with major scale?",
+      "answer": "Do not assume major always sounds happy. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-186",
+      "topic": "major-scale",
+      "question": "How would you explain major scale to a young learner?",
+      "answer": "Use the concrete example the ascending notes of a C major scale and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-187",
+      "topic": "major-scale",
+      "question": "What brief activity helps me understand major scale?",
+      "answer": "Try this brief activity: Play a major scale slowly and hear the tonic. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-188",
+      "topic": "major-scale",
+      "question": "How can I check my understanding of major scale?",
+      "answer": "Explain the central idea in your own words: a major scale follows a recognizable step pattern. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-189",
+      "topic": "major-scale",
+      "question": "When might major scale help in daily life?",
+      "answer": "A useful everyday connection is the ascending notes of a C major scale. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-190",
+      "topic": "major-scale",
+      "question": "What should I notice first about major scale?",
+      "answer": "Notice the key distinction: A major scale follows a recognizable step pattern. The example the ascending notes of a C major scale makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-191",
+      "topic": "major-scale",
+      "question": "How can I explore major scale safely on my own?",
+      "answer": "Begin with play a major scale slowly and hear the tonic. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-192",
+      "topic": "major-scale",
+      "question": "What important question should I ask about major scale?",
+      "answer": "Ask which assumptions matter in the ascending notes of a C major scale. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-193",
+      "topic": "major-scale",
+      "question": "What other skill connects to major scale?",
+      "answer": "Connect major scale with planning, observation and clear communication. For a practical bridge, consider the ascending notes of a C major scale.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-194",
+      "topic": "major-scale",
+      "question": "How can two people practice major scale together?",
+      "answer": "One person can explain the ascending notes of a C major scale; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-195",
+      "topic": "major-scale",
+      "question": "What basic materials help with major scale?",
+      "answer": "A notebook and a comfortable place to try play a major scale slowly and hear the tonic are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-196",
+      "topic": "major-scale",
+      "question": "How can I deepen my practice of major scale?",
+      "answer": "Extend the activity by adjusting one detail of the ascending notes of a C major scale, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-197",
+      "topic": "major-scale",
+      "question": "What if major scale feels frustrating or difficult?",
+      "answer": "Make the task smaller: Play a major scale slowly and hear the tonic. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-198",
+      "topic": "major-scale",
+      "question": "What evidence shows improvement in major scale?",
+      "answer": "Track what you did, how the ascending notes of a C major scale applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-199",
+      "topic": "major-scale",
+      "question": "What claim should I avoid making about major scale?",
+      "answer": "Do not assume major always sounds happy. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-200",
+      "topic": "major-scale",
+      "question": "How can I reflect on learning major scale?",
+      "answer": "Write down the starting example the ascending notes of a C major scale, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-201",
+      "topic": "minor-scale",
+      "question": "What does minor scale involve?",
+      "answer": "Minor scales use several distinct patterns and tonal centers. For instance, an A natural minor pattern on a keyboard.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-202",
+      "topic": "minor-scale",
+      "question": "Why is minor scale worth learning?",
+      "answer": "Minor scales use several distinct patterns and tonal centers. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-203",
+      "topic": "minor-scale",
+      "question": "Can you describe minor scale with an example?",
+      "answer": "Consider this example: an A natural minor pattern on a keyboard. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-204",
+      "topic": "minor-scale",
+      "question": "How can a beginner begin minor scale?",
+      "answer": "Start small: Compare two scales using the same starting note. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-205",
+      "topic": "minor-scale",
+      "question": "What is a common mistake with minor scale?",
+      "answer": "Do not assume minor always expresses sadness. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-206",
+      "topic": "minor-scale",
+      "question": "How would you explain minor scale to a young learner?",
+      "answer": "Use the concrete example an A natural minor pattern on a keyboard and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-207",
+      "topic": "minor-scale",
+      "question": "What brief activity helps me understand minor scale?",
+      "answer": "Try this brief activity: Compare two scales using the same starting note. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-208",
+      "topic": "minor-scale",
+      "question": "How can I check my understanding of minor scale?",
+      "answer": "Explain the central idea in your own words: minor scales use several distinct patterns and tonal centers. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-209",
+      "topic": "minor-scale",
+      "question": "When might minor scale help in daily life?",
+      "answer": "A useful everyday connection is an A natural minor pattern on a keyboard. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-210",
+      "topic": "minor-scale",
+      "question": "What should I notice first about minor scale?",
+      "answer": "Notice the key distinction: Minor scales use several distinct patterns and tonal centers. The example an A natural minor pattern on a keyboard makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-211",
+      "topic": "minor-scale",
+      "question": "How can I explore minor scale safely on my own?",
+      "answer": "Begin with compare two scales using the same starting note. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-212",
+      "topic": "minor-scale",
+      "question": "What important question should I ask about minor scale?",
+      "answer": "Ask which assumptions matter in an A natural minor pattern on a keyboard. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-213",
+      "topic": "minor-scale",
+      "question": "What other skill connects to minor scale?",
+      "answer": "Connect minor scale with planning, observation and clear communication. For a practical bridge, consider an A natural minor pattern on a keyboard.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-214",
+      "topic": "minor-scale",
+      "question": "How can two people practice minor scale together?",
+      "answer": "One person can explain an A natural minor pattern on a keyboard; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-215",
+      "topic": "minor-scale",
+      "question": "What basic materials help with minor scale?",
+      "answer": "A notebook and a comfortable place to try compare two scales using the same starting note are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-216",
+      "topic": "minor-scale",
+      "question": "How can I deepen my practice of minor scale?",
+      "answer": "Extend the activity by adjusting one detail of an A natural minor pattern on a keyboard, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-217",
+      "topic": "minor-scale",
+      "question": "What if minor scale feels frustrating or difficult?",
+      "answer": "Make the task smaller: Compare two scales using the same starting note. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-218",
+      "topic": "minor-scale",
+      "question": "What evidence shows improvement in minor scale?",
+      "answer": "Track what you did, how an A natural minor pattern on a keyboard applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-219",
+      "topic": "minor-scale",
+      "question": "What claim should I avoid making about minor scale?",
+      "answer": "Do not assume minor always expresses sadness. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-220",
+      "topic": "minor-scale",
+      "question": "How can I reflect on learning minor scale?",
+      "answer": "Write down the starting example an A natural minor pattern on a keyboard, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-221",
+      "topic": "chords",
+      "question": "What does chords involve?",
+      "answer": "Chords combine tones that sound together. For instance, a simple C major triad.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-222",
+      "topic": "chords",
+      "question": "Why is chords worth learning?",
+      "answer": "Chords combine tones that sound together. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-223",
+      "topic": "chords",
+      "question": "Can you describe chords with an example?",
+      "answer": "Consider this example: a simple C major triad. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-224",
+      "topic": "chords",
+      "question": "How can a beginner begin chords?",
+      "answer": "Start small: Build a three-note chord from a scale. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-225",
+      "topic": "chords",
+      "question": "What is a common mistake with chords?",
+      "answer": "Do not confuse a chord name with its inversion. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-226",
+      "topic": "chords",
+      "question": "How would you explain chords to a young learner?",
+      "answer": "Use the concrete example a simple C major triad and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-227",
+      "topic": "chords",
+      "question": "What brief activity helps me understand chords?",
+      "answer": "Try this brief activity: Build a three-note chord from a scale. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-228",
+      "topic": "chords",
+      "question": "How can I check my understanding of chords?",
+      "answer": "Explain the central idea in your own words: chords combine tones that sound together. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-229",
+      "topic": "chords",
+      "question": "When might chords help in daily life?",
+      "answer": "A useful everyday connection is a simple C major triad. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-230",
+      "topic": "chords",
+      "question": "What should I notice first about chords?",
+      "answer": "Notice the key distinction: Chords combine tones that sound together. The example a simple C major triad makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-231",
+      "topic": "chords",
+      "question": "How can I explore chords safely on my own?",
+      "answer": "Begin with build a three-note chord from a scale. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-232",
+      "topic": "chords",
+      "question": "What important question should I ask about chords?",
+      "answer": "Ask which assumptions matter in a simple C major triad. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-233",
+      "topic": "chords",
+      "question": "What other skill connects to chords?",
+      "answer": "Connect chords with planning, observation and clear communication. For a practical bridge, consider a simple C major triad.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-234",
+      "topic": "chords",
+      "question": "How can two people practice chords together?",
+      "answer": "One person can explain a simple C major triad; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-235",
+      "topic": "chords",
+      "question": "What basic materials help with chords?",
+      "answer": "A notebook and a comfortable place to try build a three-note chord from a scale are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-236",
+      "topic": "chords",
+      "question": "How can I deepen my practice of chords?",
+      "answer": "Extend the activity by adjusting one detail of a simple C major triad, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-237",
+      "topic": "chords",
+      "question": "What if chords feels frustrating or difficult?",
+      "answer": "Make the task smaller: Build a three-note chord from a scale. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-238",
+      "topic": "chords",
+      "question": "What evidence shows improvement in chords?",
+      "answer": "Track what you did, how a simple C major triad applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-239",
+      "topic": "chords",
+      "question": "What claim should I avoid making about chords?",
+      "answer": "Do not confuse a chord name with its inversion. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-240",
+      "topic": "chords",
+      "question": "How can I reflect on learning chords?",
+      "answer": "Write down the starting example a simple C major triad, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-241",
+      "topic": "harmony",
+      "question": "What does harmony involve?",
+      "answer": "Harmony concerns simultaneous pitch relationships and movement. For instance, a melody supported by changing chords.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-242",
+      "topic": "harmony",
+      "question": "Why is harmony worth learning?",
+      "answer": "Harmony concerns simultaneous pitch relationships and movement. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-243",
+      "topic": "harmony",
+      "question": "Can you describe harmony with an example?",
+      "answer": "Consider this example: a melody supported by changing chords. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-244",
+      "topic": "harmony",
+      "question": "How can a beginner begin harmony?",
+      "answer": "Start small: Listen for how a bass note changes a phrase. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-245",
+      "topic": "harmony",
+      "question": "What is a common mistake with harmony?",
+      "answer": "Avoid calling one harmonic tradition universal. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-246",
+      "topic": "harmony",
+      "question": "How would you explain harmony to a young learner?",
+      "answer": "Use the concrete example a melody supported by changing chords and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-247",
+      "topic": "harmony",
+      "question": "What brief activity helps me understand harmony?",
+      "answer": "Try this brief activity: Listen for how a bass note changes a phrase. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-248",
+      "topic": "harmony",
+      "question": "How can I check my understanding of harmony?",
+      "answer": "Explain the central idea in your own words: harmony concerns simultaneous pitch relationships and movement. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-249",
+      "topic": "harmony",
+      "question": "When might harmony help in daily life?",
+      "answer": "A useful everyday connection is a melody supported by changing chords. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-250",
+      "topic": "harmony",
+      "question": "What should I notice first about harmony?",
+      "answer": "Notice the key distinction: Harmony concerns simultaneous pitch relationships and movement. The example a melody supported by changing chords makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-251",
+      "topic": "harmony",
+      "question": "How can I explore harmony safely on my own?",
+      "answer": "Begin with listen for how a bass note changes a phrase. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-252",
+      "topic": "harmony",
+      "question": "What important question should I ask about harmony?",
+      "answer": "Ask which assumptions matter in a melody supported by changing chords. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-253",
+      "topic": "harmony",
+      "question": "What other skill connects to harmony?",
+      "answer": "Connect harmony with planning, observation and clear communication. For a practical bridge, consider a melody supported by changing chords.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-254",
+      "topic": "harmony",
+      "question": "How can two people practice harmony together?",
+      "answer": "One person can explain a melody supported by changing chords; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-255",
+      "topic": "harmony",
+      "question": "What basic materials help with harmony?",
+      "answer": "A notebook and a comfortable place to try listen for how a bass note changes a phrase are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-256",
+      "topic": "harmony",
+      "question": "How can I deepen my practice of harmony?",
+      "answer": "Extend the activity by adjusting one detail of a melody supported by changing chords, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-257",
+      "topic": "harmony",
+      "question": "What if harmony feels frustrating or difficult?",
+      "answer": "Make the task smaller: Listen for how a bass note changes a phrase. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-258",
+      "topic": "harmony",
+      "question": "What evidence shows improvement in harmony?",
+      "answer": "Track what you did, how a melody supported by changing chords applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-259",
+      "topic": "harmony",
+      "question": "What claim should I avoid making about harmony?",
+      "answer": "Avoid calling one harmonic tradition universal. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-260",
+      "topic": "harmony",
+      "question": "How can I reflect on learning harmony?",
+      "answer": "Write down the starting example a melody supported by changing chords, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-261",
+      "topic": "cadence",
+      "question": "What does cadence involve?",
+      "answer": "A cadence creates a sense of arrival pause or continuation. For instance, a phrase ending on its tonal home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-262",
+      "topic": "cadence",
+      "question": "Why is cadence worth learning?",
+      "answer": "A cadence creates a sense of arrival pause or continuation. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-263",
+      "topic": "cadence",
+      "question": "Can you describe cadence with an example?",
+      "answer": "Consider this example: a phrase ending on its tonal home. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-264",
+      "topic": "cadence",
+      "question": "How can a beginner begin cadence?",
+      "answer": "Start small: Compose two endings with different levels of closure. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-265",
+      "topic": "cadence",
+      "question": "What is a common mistake with cadence?",
+      "answer": "Avoid treating all endings as identical. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-266",
+      "topic": "cadence",
+      "question": "How would you explain cadence to a young learner?",
+      "answer": "Use the concrete example a phrase ending on its tonal home and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-267",
+      "topic": "cadence",
+      "question": "What brief activity helps me understand cadence?",
+      "answer": "Try this brief activity: Compose two endings with different levels of closure. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-268",
+      "topic": "cadence",
+      "question": "How can I check my understanding of cadence?",
+      "answer": "Explain the central idea in your own words: a cadence creates a sense of arrival pause or continuation. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-269",
+      "topic": "cadence",
+      "question": "When might cadence help in daily life?",
+      "answer": "A useful everyday connection is a phrase ending on its tonal home. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-270",
+      "topic": "cadence",
+      "question": "What should I notice first about cadence?",
+      "answer": "Notice the key distinction: A cadence creates a sense of arrival pause or continuation. The example a phrase ending on its tonal home makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-271",
+      "topic": "cadence",
+      "question": "How can I explore cadence safely on my own?",
+      "answer": "Begin with compose two endings with different levels of closure. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-272",
+      "topic": "cadence",
+      "question": "What important question should I ask about cadence?",
+      "answer": "Ask which assumptions matter in a phrase ending on its tonal home. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-273",
+      "topic": "cadence",
+      "question": "What other skill connects to cadence?",
+      "answer": "Connect cadence with planning, observation and clear communication. For a practical bridge, consider a phrase ending on its tonal home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-274",
+      "topic": "cadence",
+      "question": "How can two people practice cadence together?",
+      "answer": "One person can explain a phrase ending on its tonal home; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-275",
+      "topic": "cadence",
+      "question": "What basic materials help with cadence?",
+      "answer": "A notebook and a comfortable place to try compose two endings with different levels of closure are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-276",
+      "topic": "cadence",
+      "question": "How can I deepen my practice of cadence?",
+      "answer": "Extend the activity by adjusting one detail of a phrase ending on its tonal home, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-277",
+      "topic": "cadence",
+      "question": "What if cadence feels frustrating or difficult?",
+      "answer": "Make the task smaller: Compose two endings with different levels of closure. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-278",
+      "topic": "cadence",
+      "question": "What evidence shows improvement in cadence?",
+      "answer": "Track what you did, how a phrase ending on its tonal home applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-279",
+      "topic": "cadence",
+      "question": "What claim should I avoid making about cadence?",
+      "answer": "Avoid treating all endings as identical. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-280",
+      "topic": "cadence",
+      "question": "How can I reflect on learning cadence?",
+      "answer": "Write down the starting example a phrase ending on its tonal home, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-281",
+      "topic": "song-form",
+      "question": "What does song form involve?",
+      "answer": "Song form organizes sections and repeated ideas. For instance, verse chorus verse chorus bridge.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-282",
+      "topic": "song-form",
+      "question": "Why is song form worth learning?",
+      "answer": "Song form organizes sections and repeated ideas. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-283",
+      "topic": "song-form",
+      "question": "Can you describe song form with an example?",
+      "answer": "Consider this example: verse chorus verse chorus bridge. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-284",
+      "topic": "song-form",
+      "question": "How can a beginner begin song form?",
+      "answer": "Start small: Label sections of an original short song. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-285",
+      "topic": "song-form",
+      "question": "What is a common mistake with song form?",
+      "answer": "Avoid choosing form without considering the story. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-286",
+      "topic": "song-form",
+      "question": "How would you explain song form to a young learner?",
+      "answer": "Use the concrete example verse chorus verse chorus bridge and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-287",
+      "topic": "song-form",
+      "question": "What brief activity helps me understand song form?",
+      "answer": "Try this brief activity: Label sections of an original short song. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-288",
+      "topic": "song-form",
+      "question": "How can I check my understanding of song form?",
+      "answer": "Explain the central idea in your own words: song form organizes sections and repeated ideas. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-289",
+      "topic": "song-form",
+      "question": "When might song form help in daily life?",
+      "answer": "A useful everyday connection is verse chorus verse chorus bridge. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-290",
+      "topic": "song-form",
+      "question": "What should I notice first about song form?",
+      "answer": "Notice the key distinction: Song form organizes sections and repeated ideas. The example verse chorus verse chorus bridge makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-291",
+      "topic": "song-form",
+      "question": "How can I explore song form safely on my own?",
+      "answer": "Begin with label sections of an original short song. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-292",
+      "topic": "song-form",
+      "question": "What important question should I ask about song form?",
+      "answer": "Ask which assumptions matter in verse chorus verse chorus bridge. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-293",
+      "topic": "song-form",
+      "question": "What other skill connects to song form?",
+      "answer": "Connect song form with planning, observation and clear communication. For a practical bridge, consider verse chorus verse chorus bridge.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-294",
+      "topic": "song-form",
+      "question": "How can two people practice song form together?",
+      "answer": "One person can explain verse chorus verse chorus bridge; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-295",
+      "topic": "song-form",
+      "question": "What basic materials help with song form?",
+      "answer": "A notebook and a comfortable place to try label sections of an original short song are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-296",
+      "topic": "song-form",
+      "question": "How can I deepen my practice of song form?",
+      "answer": "Extend the activity by adjusting one detail of verse chorus verse chorus bridge, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-297",
+      "topic": "song-form",
+      "question": "What if song form feels frustrating or difficult?",
+      "answer": "Make the task smaller: Label sections of an original short song. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-298",
+      "topic": "song-form",
+      "question": "What evidence shows improvement in song form?",
+      "answer": "Track what you did, how verse chorus verse chorus bridge applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-299",
+      "topic": "song-form",
+      "question": "What claim should I avoid making about song form?",
+      "answer": "Avoid choosing form without considering the story. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-300",
+      "topic": "song-form",
+      "question": "How can I reflect on learning song form?",
+      "answer": "Write down the starting example verse chorus verse chorus bridge, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-301",
+      "topic": "refrain",
+      "question": "What does refrain involve?",
+      "answer": "A refrain is a repeated passage that gains meaning through return. For instance, one recurring line at the end of each verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-302",
+      "topic": "refrain",
+      "question": "Why is refrain worth learning?",
+      "answer": "A refrain is a repeated passage that gains meaning through return. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-303",
+      "topic": "refrain",
+      "question": "Can you describe refrain with an example?",
+      "answer": "Consider this example: one recurring line at the end of each verse. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-304",
+      "topic": "refrain",
+      "question": "How can a beginner begin refrain?",
+      "answer": "Start small: Write a concise recurring line for an original song. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-305",
+      "topic": "refrain",
+      "question": "What is a common mistake with refrain?",
+      "answer": "Do not copy an existing copyrighted lyric. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-306",
+      "topic": "refrain",
+      "question": "How would you explain refrain to a young learner?",
+      "answer": "Use the concrete example one recurring line at the end of each verse and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-307",
+      "topic": "refrain",
+      "question": "What brief activity helps me understand refrain?",
+      "answer": "Try this brief activity: Write a concise recurring line for an original song. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-308",
+      "topic": "refrain",
+      "question": "How can I check my understanding of refrain?",
+      "answer": "Explain the central idea in your own words: a refrain is a repeated passage that gains meaning through return. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-309",
+      "topic": "refrain",
+      "question": "When might refrain help in daily life?",
+      "answer": "A useful everyday connection is one recurring line at the end of each verse. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-310",
+      "topic": "refrain",
+      "question": "What should I notice first about refrain?",
+      "answer": "Notice the key distinction: A refrain is a repeated passage that gains meaning through return. The example one recurring line at the end of each verse makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-311",
+      "topic": "refrain",
+      "question": "How can I explore refrain safely on my own?",
+      "answer": "Begin with write a concise recurring line for an original song. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-312",
+      "topic": "refrain",
+      "question": "What important question should I ask about refrain?",
+      "answer": "Ask which assumptions matter in one recurring line at the end of each verse. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-313",
+      "topic": "refrain",
+      "question": "What other skill connects to refrain?",
+      "answer": "Connect refrain with planning, observation and clear communication. For a practical bridge, consider one recurring line at the end of each verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-314",
+      "topic": "refrain",
+      "question": "How can two people practice refrain together?",
+      "answer": "One person can explain one recurring line at the end of each verse; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-315",
+      "topic": "refrain",
+      "question": "What basic materials help with refrain?",
+      "answer": "A notebook and a comfortable place to try write a concise recurring line for an original song are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-316",
+      "topic": "refrain",
+      "question": "How can I deepen my practice of refrain?",
+      "answer": "Extend the activity by adjusting one detail of one recurring line at the end of each verse, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-317",
+      "topic": "refrain",
+      "question": "What if refrain feels frustrating or difficult?",
+      "answer": "Make the task smaller: Write a concise recurring line for an original song. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-318",
+      "topic": "refrain",
+      "question": "What evidence shows improvement in refrain?",
+      "answer": "Track what you did, how one recurring line at the end of each verse applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-319",
+      "topic": "refrain",
+      "question": "What claim should I avoid making about refrain?",
+      "answer": "Do not copy an existing copyrighted lyric. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-320",
+      "topic": "refrain",
+      "question": "How can I reflect on learning refrain?",
+      "answer": "Write down the starting example one recurring line at the end of each verse, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-321",
+      "topic": "lyric-prosody",
+      "question": "What does lyric prosody involve?",
+      "answer": "Lyric prosody aligns natural speech with musical stress. For instance, important words landing on strong beats.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-322",
+      "topic": "lyric-prosody",
+      "question": "Why is lyric prosody worth learning?",
+      "answer": "Lyric prosody aligns natural speech with musical stress. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-323",
+      "topic": "lyric-prosody",
+      "question": "Can you describe lyric prosody with an example?",
+      "answer": "Consider this example: important words landing on strong beats. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-324",
+      "topic": "lyric-prosody",
+      "question": "How can a beginner begin lyric prosody?",
+      "answer": "Start small: Read a lyric aloud before fitting notes. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-325",
+      "topic": "lyric-prosody",
+      "question": "What is a common mistake with lyric prosody?",
+      "answer": "Avoid stressing syllables unnaturally. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-326",
+      "topic": "lyric-prosody",
+      "question": "How would you explain lyric prosody to a young learner?",
+      "answer": "Use the concrete example important words landing on strong beats and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-327",
+      "topic": "lyric-prosody",
+      "question": "What brief activity helps me understand lyric prosody?",
+      "answer": "Try this brief activity: Read a lyric aloud before fitting notes. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-328",
+      "topic": "lyric-prosody",
+      "question": "How can I check my understanding of lyric prosody?",
+      "answer": "Explain the central idea in your own words: lyric prosody aligns natural speech with musical stress. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-329",
+      "topic": "lyric-prosody",
+      "question": "When might lyric prosody help in daily life?",
+      "answer": "A useful everyday connection is important words landing on strong beats. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-330",
+      "topic": "lyric-prosody",
+      "question": "What should I notice first about lyric prosody?",
+      "answer": "Notice the key distinction: Lyric prosody aligns natural speech with musical stress. The example important words landing on strong beats makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-331",
+      "topic": "lyric-prosody",
+      "question": "How can I explore lyric prosody safely on my own?",
+      "answer": "Begin with read a lyric aloud before fitting notes. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-332",
+      "topic": "lyric-prosody",
+      "question": "What important question should I ask about lyric prosody?",
+      "answer": "Ask which assumptions matter in important words landing on strong beats. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-333",
+      "topic": "lyric-prosody",
+      "question": "What other skill connects to lyric prosody?",
+      "answer": "Connect lyric prosody with planning, observation and clear communication. For a practical bridge, consider important words landing on strong beats.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-334",
+      "topic": "lyric-prosody",
+      "question": "How can two people practice lyric prosody together?",
+      "answer": "One person can explain important words landing on strong beats; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-335",
+      "topic": "lyric-prosody",
+      "question": "What basic materials help with lyric prosody?",
+      "answer": "A notebook and a comfortable place to try read a lyric aloud before fitting notes are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-336",
+      "topic": "lyric-prosody",
+      "question": "How can I deepen my practice of lyric prosody?",
+      "answer": "Extend the activity by adjusting one detail of important words landing on strong beats, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-337",
+      "topic": "lyric-prosody",
+      "question": "What if lyric prosody feels frustrating or difficult?",
+      "answer": "Make the task smaller: Read a lyric aloud before fitting notes. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-338",
+      "topic": "lyric-prosody",
+      "question": "What evidence shows improvement in lyric prosody?",
+      "answer": "Track what you did, how important words landing on strong beats applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-339",
+      "topic": "lyric-prosody",
+      "question": "What claim should I avoid making about lyric prosody?",
+      "answer": "Avoid stressing syllables unnaturally. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-340",
+      "topic": "lyric-prosody",
+      "question": "How can I reflect on learning lyric prosody?",
+      "answer": "Write down the starting example important words landing on strong beats, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-341",
+      "topic": "instrument-families",
+      "question": "What does instrument families involve?",
+      "answer": "Instrument families group sound-making methods. For instance, strings winds brass percussion and keyboards.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-342",
+      "topic": "instrument-families",
+      "question": "Why is instrument families worth learning?",
+      "answer": "Instrument families group sound-making methods. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-343",
+      "topic": "instrument-families",
+      "question": "Can you describe instrument families with an example?",
+      "answer": "Consider this example: strings winds brass percussion and keyboards. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-344",
+      "topic": "instrument-families",
+      "question": "How can a beginner begin instrument families?",
+      "answer": "Start small: Identify sounds by how they are produced. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-345",
+      "topic": "instrument-families",
+      "question": "What is a common mistake with instrument families?",
+      "answer": "Do not rank cultures by one instrument taxonomy. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-346",
+      "topic": "instrument-families",
+      "question": "How would you explain instrument families to a young learner?",
+      "answer": "Use the concrete example strings winds brass percussion and keyboards and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-347",
+      "topic": "instrument-families",
+      "question": "What brief activity helps me understand instrument families?",
+      "answer": "Try this brief activity: Identify sounds by how they are produced. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-348",
+      "topic": "instrument-families",
+      "question": "How can I check my understanding of instrument families?",
+      "answer": "Explain the central idea in your own words: instrument families group sound-making methods. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-349",
+      "topic": "instrument-families",
+      "question": "When might instrument families help in daily life?",
+      "answer": "A useful everyday connection is strings winds brass percussion and keyboards. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-350",
+      "topic": "instrument-families",
+      "question": "What should I notice first about instrument families?",
+      "answer": "Notice the key distinction: Instrument families group sound-making methods. The example strings winds brass percussion and keyboards makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-351",
+      "topic": "instrument-families",
+      "question": "How can I explore instrument families safely on my own?",
+      "answer": "Begin with identify sounds by how they are produced. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-352",
+      "topic": "instrument-families",
+      "question": "What important question should I ask about instrument families?",
+      "answer": "Ask which assumptions matter in strings winds brass percussion and keyboards. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-353",
+      "topic": "instrument-families",
+      "question": "What other skill connects to instrument families?",
+      "answer": "Connect instrument families with planning, observation and clear communication. For a practical bridge, consider strings winds brass percussion and keyboards.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-354",
+      "topic": "instrument-families",
+      "question": "How can two people practice instrument families together?",
+      "answer": "One person can explain strings winds brass percussion and keyboards; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-355",
+      "topic": "instrument-families",
+      "question": "What basic materials help with instrument families?",
+      "answer": "A notebook and a comfortable place to try identify sounds by how they are produced are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-356",
+      "topic": "instrument-families",
+      "question": "How can I deepen my practice of instrument families?",
+      "answer": "Extend the activity by adjusting one detail of strings winds brass percussion and keyboards, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-357",
+      "topic": "instrument-families",
+      "question": "What if instrument families feels frustrating or difficult?",
+      "answer": "Make the task smaller: Identify sounds by how they are produced. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-358",
+      "topic": "instrument-families",
+      "question": "What evidence shows improvement in instrument families?",
+      "answer": "Track what you did, how strings winds brass percussion and keyboards applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-359",
+      "topic": "instrument-families",
+      "question": "What claim should I avoid making about instrument families?",
+      "answer": "Do not rank cultures by one instrument taxonomy. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-360",
+      "topic": "instrument-families",
+      "question": "How can I reflect on learning instrument families?",
+      "answer": "Write down the starting example strings winds brass percussion and keyboards, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-361",
+      "topic": "dynamics",
+      "question": "What does dynamics involve?",
+      "answer": "Dynamics shape musical intensity and contrast. For instance, a soft opening growing gradually louder.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-362",
+      "topic": "dynamics",
+      "question": "Why is dynamics worth learning?",
+      "answer": "Dynamics shape musical intensity and contrast. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-363",
+      "topic": "dynamics",
+      "question": "Can you describe dynamics with an example?",
+      "answer": "Consider this example: a soft opening growing gradually louder. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-364",
+      "topic": "dynamics",
+      "question": "How can a beginner begin dynamics?",
+      "answer": "Start small: Perform one phrase at two comfortable intensities. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-365",
+      "topic": "dynamics",
+      "question": "What is a common mistake with dynamics?",
+      "answer": "Protect hearing and avoid painful volume. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-366",
+      "topic": "dynamics",
+      "question": "How would you explain dynamics to a young learner?",
+      "answer": "Use the concrete example a soft opening growing gradually louder and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-367",
+      "topic": "dynamics",
+      "question": "What brief activity helps me understand dynamics?",
+      "answer": "Try this brief activity: Perform one phrase at two comfortable intensities. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-368",
+      "topic": "dynamics",
+      "question": "How can I check my understanding of dynamics?",
+      "answer": "Explain the central idea in your own words: dynamics shape musical intensity and contrast. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-369",
+      "topic": "dynamics",
+      "question": "When might dynamics help in daily life?",
+      "answer": "A useful everyday connection is a soft opening growing gradually louder. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-370",
+      "topic": "dynamics",
+      "question": "What should I notice first about dynamics?",
+      "answer": "Notice the key distinction: Dynamics shape musical intensity and contrast. The example a soft opening growing gradually louder makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-371",
+      "topic": "dynamics",
+      "question": "How can I explore dynamics safely on my own?",
+      "answer": "Begin with perform one phrase at two comfortable intensities. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-372",
+      "topic": "dynamics",
+      "question": "What important question should I ask about dynamics?",
+      "answer": "Ask which assumptions matter in a soft opening growing gradually louder. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-373",
+      "topic": "dynamics",
+      "question": "What other skill connects to dynamics?",
+      "answer": "Connect dynamics with planning, observation and clear communication. For a practical bridge, consider a soft opening growing gradually louder.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-374",
+      "topic": "dynamics",
+      "question": "How can two people practice dynamics together?",
+      "answer": "One person can explain a soft opening growing gradually louder; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-375",
+      "topic": "dynamics",
+      "question": "What basic materials help with dynamics?",
+      "answer": "A notebook and a comfortable place to try perform one phrase at two comfortable intensities are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-376",
+      "topic": "dynamics",
+      "question": "How can I deepen my practice of dynamics?",
+      "answer": "Extend the activity by adjusting one detail of a soft opening growing gradually louder, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-377",
+      "topic": "dynamics",
+      "question": "What if dynamics feels frustrating or difficult?",
+      "answer": "Make the task smaller: Perform one phrase at two comfortable intensities. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-378",
+      "topic": "dynamics",
+      "question": "What evidence shows improvement in dynamics?",
+      "answer": "Track what you did, how a soft opening growing gradually louder applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-379",
+      "topic": "dynamics",
+      "question": "What claim should I avoid making about dynamics?",
+      "answer": "Protect hearing and avoid painful volume. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-380",
+      "topic": "dynamics",
+      "question": "How can I reflect on learning dynamics?",
+      "answer": "Write down the starting example a soft opening growing gradually louder, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-381",
+      "topic": "timbre",
+      "question": "What does timbre involve?",
+      "answer": "Timbre is the tone color distinguishing sound sources. For instance, the same pitch on flute and violin.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-382",
+      "topic": "timbre",
+      "question": "Why is timbre worth learning?",
+      "answer": "Timbre is the tone color distinguishing sound sources. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-383",
+      "topic": "timbre",
+      "question": "Can you describe timbre with an example?",
+      "answer": "Consider this example: the same pitch on flute and violin. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-384",
+      "topic": "timbre",
+      "question": "How can a beginner begin timbre?",
+      "answer": "Start small: Compare two recordings of a single note. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-385",
+      "topic": "timbre",
+      "question": "What is a common mistake with timbre?",
+      "answer": "Do not confuse timbre with pitch alone. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-386",
+      "topic": "timbre",
+      "question": "How would you explain timbre to a young learner?",
+      "answer": "Use the concrete example the same pitch on flute and violin and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-387",
+      "topic": "timbre",
+      "question": "What brief activity helps me understand timbre?",
+      "answer": "Try this brief activity: Compare two recordings of a single note. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-388",
+      "topic": "timbre",
+      "question": "How can I check my understanding of timbre?",
+      "answer": "Explain the central idea in your own words: timbre is the tone color distinguishing sound sources. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-389",
+      "topic": "timbre",
+      "question": "When might timbre help in daily life?",
+      "answer": "A useful everyday connection is the same pitch on flute and violin. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-390",
+      "topic": "timbre",
+      "question": "What should I notice first about timbre?",
+      "answer": "Notice the key distinction: Timbre is the tone color distinguishing sound sources. The example the same pitch on flute and violin makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-391",
+      "topic": "timbre",
+      "question": "How can I explore timbre safely on my own?",
+      "answer": "Begin with compare two recordings of a single note. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-392",
+      "topic": "timbre",
+      "question": "What important question should I ask about timbre?",
+      "answer": "Ask which assumptions matter in the same pitch on flute and violin. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-393",
+      "topic": "timbre",
+      "question": "What other skill connects to timbre?",
+      "answer": "Connect timbre with planning, observation and clear communication. For a practical bridge, consider the same pitch on flute and violin.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-394",
+      "topic": "timbre",
+      "question": "How can two people practice timbre together?",
+      "answer": "One person can explain the same pitch on flute and violin; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-395",
+      "topic": "timbre",
+      "question": "What basic materials help with timbre?",
+      "answer": "A notebook and a comfortable place to try compare two recordings of a single note are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-396",
+      "topic": "timbre",
+      "question": "How can I deepen my practice of timbre?",
+      "answer": "Extend the activity by adjusting one detail of the same pitch on flute and violin, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-397",
+      "topic": "timbre",
+      "question": "What if timbre feels frustrating or difficult?",
+      "answer": "Make the task smaller: Compare two recordings of a single note. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-398",
+      "topic": "timbre",
+      "question": "What evidence shows improvement in timbre?",
+      "answer": "Track what you did, how the same pitch on flute and violin applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-399",
+      "topic": "timbre",
+      "question": "What claim should I avoid making about timbre?",
+      "answer": "Do not confuse timbre with pitch alone. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-400",
+      "topic": "timbre",
+      "question": "How can I reflect on learning timbre?",
+      "answer": "Write down the starting example the same pitch on flute and violin, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-401",
+      "topic": "ear-training",
+      "question": "What does ear training involve?",
+      "answer": "Ear training develops attentive listening and recognition. For instance, hearing whether a phrase rises or falls.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-402",
+      "topic": "ear-training",
+      "question": "Why is ear training worth learning?",
+      "answer": "Ear training develops attentive listening and recognition. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-403",
+      "topic": "ear-training",
+      "question": "Can you describe ear training with an example?",
+      "answer": "Consider this example: hearing whether a phrase rises or falls. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-404",
+      "topic": "ear-training",
+      "question": "How can a beginner begin ear training?",
+      "answer": "Start small: Echo a short original two-note phrase. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-405",
+      "topic": "ear-training",
+      "question": "What is a common mistake with ear training?",
+      "answer": "Do not present perfect pitch as a requirement. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-406",
+      "topic": "ear-training",
+      "question": "How would you explain ear training to a young learner?",
+      "answer": "Use the concrete example hearing whether a phrase rises or falls and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-407",
+      "topic": "ear-training",
+      "question": "What brief activity helps me understand ear training?",
+      "answer": "Try this brief activity: Echo a short original two-note phrase. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-408",
+      "topic": "ear-training",
+      "question": "How can I check my understanding of ear training?",
+      "answer": "Explain the central idea in your own words: ear training develops attentive listening and recognition. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-409",
+      "topic": "ear-training",
+      "question": "When might ear training help in daily life?",
+      "answer": "A useful everyday connection is hearing whether a phrase rises or falls. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-410",
+      "topic": "ear-training",
+      "question": "What should I notice first about ear training?",
+      "answer": "Notice the key distinction: Ear training develops attentive listening and recognition. The example hearing whether a phrase rises or falls makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-411",
+      "topic": "ear-training",
+      "question": "How can I explore ear training safely on my own?",
+      "answer": "Begin with echo a short original two-note phrase. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-412",
+      "topic": "ear-training",
+      "question": "What important question should I ask about ear training?",
+      "answer": "Ask which assumptions matter in hearing whether a phrase rises or falls. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-413",
+      "topic": "ear-training",
+      "question": "What other skill connects to ear training?",
+      "answer": "Connect ear training with planning, observation and clear communication. For a practical bridge, consider hearing whether a phrase rises or falls.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-414",
+      "topic": "ear-training",
+      "question": "How can two people practice ear training together?",
+      "answer": "One person can explain hearing whether a phrase rises or falls; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-415",
+      "topic": "ear-training",
+      "question": "What basic materials help with ear training?",
+      "answer": "A notebook and a comfortable place to try echo a short original two-note phrase are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-416",
+      "topic": "ear-training",
+      "question": "How can I deepen my practice of ear training?",
+      "answer": "Extend the activity by adjusting one detail of hearing whether a phrase rises or falls, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-417",
+      "topic": "ear-training",
+      "question": "What if ear training feels frustrating or difficult?",
+      "answer": "Make the task smaller: Echo a short original two-note phrase. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-418",
+      "topic": "ear-training",
+      "question": "What evidence shows improvement in ear training?",
+      "answer": "Track what you did, how hearing whether a phrase rises or falls applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-419",
+      "topic": "ear-training",
+      "question": "What claim should I avoid making about ear training?",
+      "answer": "Do not present perfect pitch as a requirement. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-420",
+      "topic": "ear-training",
+      "question": "How can I reflect on learning ear training?",
+      "answer": "Write down the starting example hearing whether a phrase rises or falls, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-421",
+      "topic": "practice-routine",
+      "question": "What does practice routine involve?",
+      "answer": "A practice routine balances warmup focus and reflection. For instance, five minutes of pulse followed by a short melody.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-422",
+      "topic": "practice-routine",
+      "question": "Why is practice routine worth learning?",
+      "answer": "A practice routine balances warmup focus and reflection. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-423",
+      "topic": "practice-routine",
+      "question": "Can you describe practice routine with an example?",
+      "answer": "Consider this example: five minutes of pulse followed by a short melody. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-424",
+      "topic": "practice-routine",
+      "question": "How can a beginner begin practice routine?",
+      "answer": "Start small: Set one measurable practice goal. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-425",
+      "topic": "practice-routine",
+      "question": "What is a common mistake with practice routine?",
+      "answer": "Avoid marathon practice that causes strain. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-426",
+      "topic": "practice-routine",
+      "question": "How would you explain practice routine to a young learner?",
+      "answer": "Use the concrete example five minutes of pulse followed by a short melody and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-427",
+      "topic": "practice-routine",
+      "question": "What brief activity helps me understand practice routine?",
+      "answer": "Try this brief activity: Set one measurable practice goal. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-428",
+      "topic": "practice-routine",
+      "question": "How can I check my understanding of practice routine?",
+      "answer": "Explain the central idea in your own words: a practice routine balances warmup focus and reflection. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-429",
+      "topic": "practice-routine",
+      "question": "When might practice routine help in daily life?",
+      "answer": "A useful everyday connection is five minutes of pulse followed by a short melody. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-430",
+      "topic": "practice-routine",
+      "question": "What should I notice first about practice routine?",
+      "answer": "Notice the key distinction: A practice routine balances warmup focus and reflection. The example five minutes of pulse followed by a short melody makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-431",
+      "topic": "practice-routine",
+      "question": "How can I explore practice routine safely on my own?",
+      "answer": "Begin with set one measurable practice goal. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-432",
+      "topic": "practice-routine",
+      "question": "What important question should I ask about practice routine?",
+      "answer": "Ask which assumptions matter in five minutes of pulse followed by a short melody. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-433",
+      "topic": "practice-routine",
+      "question": "What other skill connects to practice routine?",
+      "answer": "Connect practice routine with planning, observation and clear communication. For a practical bridge, consider five minutes of pulse followed by a short melody.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-434",
+      "topic": "practice-routine",
+      "question": "How can two people practice practice routine together?",
+      "answer": "One person can explain five minutes of pulse followed by a short melody; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-435",
+      "topic": "practice-routine",
+      "question": "What basic materials help with practice routine?",
+      "answer": "A notebook and a comfortable place to try set one measurable practice goal are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-436",
+      "topic": "practice-routine",
+      "question": "How can I deepen my practice of practice routine?",
+      "answer": "Extend the activity by adjusting one detail of five minutes of pulse followed by a short melody, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-437",
+      "topic": "practice-routine",
+      "question": "What if practice routine feels frustrating or difficult?",
+      "answer": "Make the task smaller: Set one measurable practice goal. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-438",
+      "topic": "practice-routine",
+      "question": "What evidence shows improvement in practice routine?",
+      "answer": "Track what you did, how five minutes of pulse followed by a short melody applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-439",
+      "topic": "practice-routine",
+      "question": "What claim should I avoid making about practice routine?",
+      "answer": "Avoid marathon practice that causes strain. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-440",
+      "topic": "practice-routine",
+      "question": "How can I reflect on learning practice routine?",
+      "answer": "Write down the starting example five minutes of pulse followed by a short melody, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-441",
+      "topic": "ensemble-listening",
+      "question": "What does ensemble listening involve?",
+      "answer": "Ensemble listening coordinates parts without erasing individuality. For instance, a drummer noticing the singer's phrasing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-442",
+      "topic": "ensemble-listening",
+      "question": "Why is ensemble listening worth learning?",
+      "answer": "Ensemble listening coordinates parts without erasing individuality. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-443",
+      "topic": "ensemble-listening",
+      "question": "Can you describe ensemble listening with an example?",
+      "answer": "Consider this example: a drummer noticing the singer's phrasing. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-444",
+      "topic": "ensemble-listening",
+      "question": "How can a beginner begin ensemble listening?",
+      "answer": "Start small: Play together and leave space for another part. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-445",
+      "topic": "ensemble-listening",
+      "question": "What is a common mistake with ensemble listening?",
+      "answer": "Do not assume louder means more leadership. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-446",
+      "topic": "ensemble-listening",
+      "question": "How would you explain ensemble listening to a young learner?",
+      "answer": "Use the concrete example a drummer noticing the singer's phrasing and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-447",
+      "topic": "ensemble-listening",
+      "question": "What brief activity helps me understand ensemble listening?",
+      "answer": "Try this brief activity: Play together and leave space for another part. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-448",
+      "topic": "ensemble-listening",
+      "question": "How can I check my understanding of ensemble listening?",
+      "answer": "Explain the central idea in your own words: ensemble listening coordinates parts without erasing individuality. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-449",
+      "topic": "ensemble-listening",
+      "question": "When might ensemble listening help in daily life?",
+      "answer": "A useful everyday connection is a drummer noticing the singer's phrasing. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-450",
+      "topic": "ensemble-listening",
+      "question": "What should I notice first about ensemble listening?",
+      "answer": "Notice the key distinction: Ensemble listening coordinates parts without erasing individuality. The example a drummer noticing the singer's phrasing makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-451",
+      "topic": "ensemble-listening",
+      "question": "How can I explore ensemble listening safely on my own?",
+      "answer": "Begin with play together and leave space for another part. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-452",
+      "topic": "ensemble-listening",
+      "question": "What important question should I ask about ensemble listening?",
+      "answer": "Ask which assumptions matter in a drummer noticing the singer's phrasing. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-453",
+      "topic": "ensemble-listening",
+      "question": "What other skill connects to ensemble listening?",
+      "answer": "Connect ensemble listening with planning, observation and clear communication. For a practical bridge, consider a drummer noticing the singer's phrasing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-454",
+      "topic": "ensemble-listening",
+      "question": "How can two people practice ensemble listening together?",
+      "answer": "One person can explain a drummer noticing the singer's phrasing; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-455",
+      "topic": "ensemble-listening",
+      "question": "What basic materials help with ensemble listening?",
+      "answer": "A notebook and a comfortable place to try play together and leave space for another part are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-456",
+      "topic": "ensemble-listening",
+      "question": "How can I deepen my practice of ensemble listening?",
+      "answer": "Extend the activity by adjusting one detail of a drummer noticing the singer's phrasing, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-457",
+      "topic": "ensemble-listening",
+      "question": "What if ensemble listening feels frustrating or difficult?",
+      "answer": "Make the task smaller: Play together and leave space for another part. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-458",
+      "topic": "ensemble-listening",
+      "question": "What evidence shows improvement in ensemble listening?",
+      "answer": "Track what you did, how a drummer noticing the singer's phrasing applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-459",
+      "topic": "ensemble-listening",
+      "question": "What claim should I avoid making about ensemble listening?",
+      "answer": "Do not assume louder means more leadership. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-460",
+      "topic": "ensemble-listening",
+      "question": "How can I reflect on learning ensemble listening?",
+      "answer": "Write down the starting example a drummer noticing the singer's phrasing, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-461",
+      "topic": "home-recording",
+      "question": "What does home recording involve?",
+      "answer": "Home recording captures sound with attention to levels and environment. For instance, a voice memo recorded away from a noisy fan.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-462",
+      "topic": "home-recording",
+      "question": "Why is home recording worth learning?",
+      "answer": "Home recording captures sound with attention to levels and environment. A practical benefit is being able to notice and choose your next step with greater care.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-463",
+      "topic": "home-recording",
+      "question": "Can you describe home recording with an example?",
+      "answer": "Consider this example: a voice memo recorded away from a noisy fan. It illustrates the idea without requiring special equipment or access.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-464",
+      "topic": "home-recording",
+      "question": "How can a beginner begin home recording?",
+      "answer": "Start small: Record a short test and listen back. If it is uncomfortable or unclear, adapt the activity to your situation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-465",
+      "topic": "home-recording",
+      "question": "What is a common mistake with home recording?",
+      "answer": "Never claim a track was published when merely recorded. Slow down and check the specific context before continuing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-466",
+      "topic": "home-recording",
+      "question": "How would you explain home recording to a young learner?",
+      "answer": "Use the concrete example a voice memo recorded away from a noisy fan and invite questions. Keep the explanation simple and age-appropriate.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-467",
+      "topic": "home-recording",
+      "question": "What brief activity helps me understand home recording?",
+      "answer": "Try this brief activity: Record a short test and listen back. Notice what you learned rather than rating your performance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-468",
+      "topic": "home-recording",
+      "question": "How can I check my understanding of home recording?",
+      "answer": "Explain the central idea in your own words: home recording captures sound with attention to levels and environment. Then offer a different example and compare.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-469",
+      "topic": "home-recording",
+      "question": "When might home recording help in daily life?",
+      "answer": "A useful everyday connection is a voice memo recorded away from a noisy fan. Choose a relevant situation rather than assuming it applies to everyone.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-470",
+      "topic": "home-recording",
+      "question": "What should I notice first about home recording?",
+      "answer": "Notice the key distinction: Home recording captures sound with attention to levels and environment. The example a voice memo recorded away from a noisy fan makes that more concrete.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-471",
+      "topic": "home-recording",
+      "question": "How can I explore home recording safely on my own?",
+      "answer": "Begin with record a short test and listen back. Use a safe, age-appropriate approach and stop if it is not suitable for you.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-472",
+      "topic": "home-recording",
+      "question": "What important question should I ask about home recording?",
+      "answer": "Ask which assumptions matter in a voice memo recorded away from a noisy fan. What facts would you need to make a responsible decision?",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-473",
+      "topic": "home-recording",
+      "question": "What other skill connects to home recording?",
+      "answer": "Connect home recording with planning, observation and clear communication. For a practical bridge, consider a voice memo recorded away from a noisy fan.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-474",
+      "topic": "home-recording",
+      "question": "How can two people practice home recording together?",
+      "answer": "One person can explain a voice memo recorded away from a noisy fan; the other can suggest an accessible variation. Both should be free to decline.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-475",
+      "topic": "home-recording",
+      "question": "What basic materials help with home recording?",
+      "answer": "A notebook and a comfortable place to try record a short test and listen back are often sufficient. Use appropriate supports if needed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-476",
+      "topic": "home-recording",
+      "question": "How can I deepen my practice of home recording?",
+      "answer": "Extend the activity by adjusting one detail of a voice memo recorded away from a noisy fan, then compare the experience carefully.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-477",
+      "topic": "home-recording",
+      "question": "What if home recording feels frustrating or difficult?",
+      "answer": "Make the task smaller: Record a short test and listen back. Difficulty is a signal to adjust the approach, not a judgment of the learner.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-478",
+      "topic": "home-recording",
+      "question": "What evidence shows improvement in home recording?",
+      "answer": "Track what you did, how a voice memo recorded away from a noisy fan applied and whether you can explain it more clearly at the next attempt.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-479",
+      "topic": "home-recording",
+      "question": "What claim should I avoid making about home recording?",
+      "answer": "Never claim a track was published when merely recorded. Distinguish general education from specialist advice or any action that requires a real-world professional.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "moirai-editorial-20261109-480",
+      "topic": "home-recording",
+      "question": "How can I reflect on learning home recording?",
+      "answer": "Write down the starting example a voice memo recorded away from a noisy fan, what changed and one question you would ask next.",
+      "status": "founder-approved-editorial"
+    }
+  ]
+}
