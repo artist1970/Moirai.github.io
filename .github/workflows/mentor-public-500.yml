@@ -1,0 +1,33 @@
+name: Mentor Public Chat 500 QA Review
+
+on:
+  pull_request:
+    paths:
+      - "knowledge/mentor-approved-500.v1.json"
+      - "moirai-conversation-v1.js"
+      - "tests/public-mentor-500.test.mjs"
+      - ".github/workflows/mentor-public-500.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-qa-contract:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate 500-Q&A bank and chat fallback
+        run: |
+          node --check moirai-conversation-v1.js
+          node --test tests/public-mentor-500.test.mjs
+      - name: Read-only confirmation
+        run: |
+          echo "FRONT_DOOR_QA=REVIEW_ONLY"
+          echo "PRIVILEGED_ENDPOINTS=NONE"
