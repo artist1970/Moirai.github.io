@@ -1,0 +1,25 @@
+name: Public mentor chat and voice regression
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'mentor-chat-voice-v1.js'
+      - 'tests/mentor-chat-voice.test.mjs'
+      - '.github/workflows/mentor-chat-voice.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'mentor-chat-voice-v1.js'
+      - 'tests/mentor-chat-voice.test.mjs'
+permissions:
+  contents: read
+jobs:
+  chat-and-voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/mentor-chat-voice.test.mjs
