@@ -6,6 +6,8 @@ on:
       - "knowledge/mentor-approved-500.v1.json"
       - "moirai-conversation-v1.js"
       - "tests/public-mentor-500.test.mjs"
+      - "mentor-chat-accessibility-v1.js"
+      - "index.html"
       - ".github/workflows/mentor-public-500.yml"
   workflow_dispatch:
 
@@ -25,6 +27,7 @@ jobs:
           node-version: '22'
       - name: Validate 500-Q&A bank and chat fallback
         run: |
+          node --check mentor-chat-accessibility-v1.js
           node --check moirai-conversation-v1.js
           node --test tests/public-mentor-500.test.mjs
       - name: Read-only confirmation
