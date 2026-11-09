@@ -45,3 +45,14 @@ test("chat degrades to legacy when approved public bank is unavailable",async()=
  assert.equal(chat.approved500Count(),0);
  assert.ok(chat.respond("hello").length>4);
 });
+
+test("shared front-door keyboard controls are present and don't transmit messages",()=>{
+ const html=readFileSync(new URL("../index.html",import.meta.url),"utf8");
+ const helper=readFileSync(new URL("../mentor-chat-accessibility-v1.js",import.meta.url),"utf8");
+ assert.ok(html.includes('src="mentor-chat-accessibility-v1.js"'));
+ assert.match(helper,/e\.key==="Enter"/);
+ assert.match(helper,/!e\.shiftKey/);
+ assert.match(helper,/approved500Ready/);
+ assert.match(helper,/500 founder-approved public Q&As available/);
+ assert.doesNotMatch(helper,/\bfetch\s*\(|XMLHttpRequest|localStorage|sessionStorage/);
+});
