@@ -1,0 +1,33 @@
+/* Moirai · VNV/KA landing refinement · public-only */
+:root{--radius:7px;--radius-large:7px;--serif:"Cinzel",Georgia,serif;--sans:"Nunito","Brandon Grotesque","Avenir Next",Arial,sans-serif;--ink:#202f3c}
+body{font:400 18px/1.7 var(--sans);color:#202f3c}
+.hero-grid{min-height:max(640px,calc(100svh - 90px));gap:clamp(24px,5vw,55px)}
+.hero .eyebrow{font:400 18px/1.5 var(--serif);color:#7b5726;letter-spacing:.055em;text-transform:none}
+.hero h1{font:400 clamp(48px,7vw,66px)/1.15 var(--serif);letter-spacing:0}
+.hero h1 span{font:400 clamp(20px,2.2vw,26px)/1.35 var(--serif);letter-spacing:.025em;text-transform:none;color:#234b67}
+.hero-lead{font:400 18px/1.75 var(--sans)}
+.hero-actions{gap:12px}
+.button,.pill{font:400 16px/1.5 var(--sans);letter-spacing:0;text-transform:none;border-radius:7px;min-height:44px}
+.art-note{font:400 16px/1.5 var(--sans);letter-spacing:0;text-transform:none;border-radius:7px}
+.art-card{border-radius:7px}
+.section-head h2{font:400 clamp(30px,4.2vw,44px)/1.26 var(--serif);letter-spacing:0}
+.section-head p,.path-card p,.boundary-card p{font:400 18px/1.7 var(--sans)}
+.kicker,.path-card .num{font:400 16px/1.5 var(--serif);letter-spacing:.04em;text-transform:none;color:#795521}
+.path-card,.boundary-card{border-radius:7px}
+.path-card h3,.boundary-card h3{font:400 24px/1.4 var(--serif)}
+.capability{font:400 16px/1.5 var(--sans);letter-spacing:0;text-transform:none;border-radius:7px}
+.legacy-note{font-size:16px;line-height:1.6}
+#moirai-chat{padding-top:0;scroll-margin-top:95px}
+.moirai-chat-anchor{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:12px max(18px,calc((100vw - 1180px)/2));background:#202724;color:#fff8e9;border-block:2px solid #b78c43}
+.moirai-chat-anchor span{font:400 18px/1.5 var(--serif)}
+.moirai-chat-anchor a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 15px;border:1px solid #b78c43;color:#fff8e9;border-radius:7px;text-decoration:none;font-size:16px}
+#moirai-chat>.wrap{padding-top:clamp(30px,4.5vw,56px)}
+#moirai-chat label,#moirai-chat textarea,#moirai-chat button{font-size:18px;line-height:1.5}
+#moirai-chat button{min-height:44px}
+.moirai-chat-shell{border-radius:7px!important}
+.moirai-footer{background:#202724;color:#fff8e9;font-size:16px;line-height:1.65;padding:30px 14px;text-align:center}
+.moirai-footer-nav{display:flex;gap:10px 18px;flex-wrap:wrap;justify-content:center;margin-top:12px}
+.moirai-footer-nav a{font-size:16px;color:#fff8e9;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:920px){.hero-grid{min-height:auto;padding-block:56px}.hero-copy{max-width:720px}.hero-actions{justify-content:center}}
+@media(max-width:650px){.moirai-chat-anchor{justify-content:center}.moirai-chat-anchor a{width:100%}.hero-actions{flex-direction:column}.hero-actions .button{width:100%}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
