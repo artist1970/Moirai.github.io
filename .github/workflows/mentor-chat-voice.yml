@@ -17,7 +17,14 @@ on:
     paths:
       - 'index.html'
       - 'mentor-chat-voice-v1.js'
+      - 'moirai-conversation-v1.js'
+      - 'creative-spark-mentor-qa-v1.js'
+      - 'knowledge/question-records.v1.json'
+      - 'knowledge/drafts/**'
+      - 'styles/moirai-landing-refinement-v1.css'
+      - 'tests/moirai-five-bubble.test.mjs'
       - 'tests/mentor-chat-voice.test.mjs'
+      - '.github/workflows/mentor-chat-voice.yml'
 permissions:
   contents: read
 jobs:
