@@ -46,6 +46,8 @@ function respond(input){
  const raw=String(input||"").trim().slice(0,1000),q=norm(raw);turn++;
  if(!q)return "Tell me about a musical idea, a skill you want to learn, or a piece you are creating.";
  if(sensitive.test(raw))return "Please keep credentials, private information and sensitive records out of this public music chat. If someone is in immediate danger, contact local emergency services or a trusted person nearby.";
+ const language=root.CreativeSparkLanguageRequest?.answer(raw,{mentorId:"moirai"});
+ if(language)return language;
  if(["hello","hi","hey","good morning","good afternoon"].includes(q))return "Welcome to Moirai's studio. Would you like to explore melody, harmony, songwriting, or a practice plan?";
  if(q.includes("play a song")||q.includes("play music"))return "I can guide your original musical ideas and practice, but this chat does not play audio. Tell me what you want to create or learn.";
  if(q.includes("eiren"))return "Eiren is our literary mentor for poetry and language. I can help with the musical side of an original song.";
