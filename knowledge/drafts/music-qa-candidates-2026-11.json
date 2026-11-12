@@ -1,0 +1,347 @@
+{
+  "schema": "moirai-editorial-candidates-v1",
+  "version": 1,
+  "description": "Unpublished original suggestions only; no live chat ingestion",
+  "records": [
+    {
+      "id": "moirai-draft-public-001",
+      "topic": "melody",
+      "question": "How can I develop a short melodic idea?",
+      "proposedResponse": "Repeat a small original motif, then change only its ending, rhythm or direction. Compare which version best expresses your intention.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-002",
+      "topic": "melody",
+      "question": "How do I make a melody easier to sing?",
+      "proposedResponse": "Try a comfortable vocal range, use singable phrase lengths and mark places to breathe. Adapt the line to your own voice.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-003",
+      "topic": "harmony",
+      "question": "Why do chord choices change a melody's mood?",
+      "proposedResponse": "Different supporting tones create distinct tension and resolution around the same melody. Try several simple options and listen for the effect.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-004",
+      "topic": "harmony",
+      "question": "How should I begin a chord progression?",
+      "proposedResponse": "Choose a tonal center and a few chords, then listen for movement and return. There is no single required progression for an original piece.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-005",
+      "topic": "rhythm",
+      "question": "How do I keep a steady pulse without rushing?",
+      "proposedResponse": "Practice a short passage at a comfortable tempo with a steady count, recording no personal details. Increase speed only when it feels controlled.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-006",
+      "topic": "rhythm",
+      "question": "What is the difference between beat and rhythm?",
+      "proposedResponse": "The beat is a recurring pulse, while rhythm describes the timing and duration of notes or rests against that pulse.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-007",
+      "topic": "songwriting",
+      "question": "How can I turn a personal idea into a song?",
+      "proposedResponse": "Identify the feeling or image you want to communicate, then write one original phrase and decide what musical gesture best supports it.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-008",
+      "topic": "songwriting",
+      "question": "How do I develop an original chorus?",
+      "proposedResponse": "Choose the song's central thought and a memorable melodic shape. Keep or revise repetition based on what you want a listener to remember.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-009",
+      "topic": "lyrics",
+      "question": "How can I improve the flow of original lyrics?",
+      "proposedResponse": "Read your words naturally, notice stressed syllables, and adjust their placement against your melody while keeping your intended meaning.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-010",
+      "topic": "composition",
+      "question": "How can contrast create a musical section?",
+      "proposedResponse": "Alter one parameter—register, rhythm, dynamics, texture or harmony—while preserving a recognizable connection to your opening material.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-011",
+      "topic": "arrangement",
+      "question": "How do I make room for the lead line?",
+      "proposedResponse": "Identify the main musical line, then reduce competing parts in the same range or rhythmic space. Restore detail only when it supports the whole.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-012",
+      "topic": "instrumentation",
+      "question": "What should I consider when choosing an instrument?",
+      "proposedResponse": "Think about range, timbre, available musicians, difficulty and the part's expressive purpose before making a choice.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-013",
+      "topic": "theory",
+      "question": "What is an interval in music?",
+      "proposedResponse": "An interval describes the distance in pitch between two notes. You can explore it by singing or comparing two pitches at a comfortable range.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-014",
+      "topic": "ear",
+      "question": "How can I practice recognizing melodic direction?",
+      "proposedResponse": "Listen to a very short original phrase and decide whether its next note rises, falls or repeats. Then check by slowly replaying or singing it.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-015",
+      "topic": "practice",
+      "question": "How can I build a ten-minute practice session?",
+      "proposedResponse": "Choose one goal, spend a few minutes warming up gently, work on one focused passage and finish by noting one thing that improved.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-016",
+      "topic": "practice",
+      "question": "What if I keep making the same mistake while practicing?",
+      "proposedResponse": "Slow down, isolate a smaller section and try one change at a time. Short breaks can also help restore attention.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-017",
+      "topic": "performance",
+      "question": "What can I do if I make a mistake during a performance?",
+      "proposedResponse": "Plan a simple recovery point, practice continuing after small slips and keep listening for the next musical phrase.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-018",
+      "topic": "recording",
+      "question": "How can I prepare a simple recording session?",
+      "proposedResponse": "Check that your equipment works, choose a quiet space when practical, plan takes and obtain necessary consent before recording others.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-019",
+      "topic": "mixing",
+      "question": "What should I listen for before applying effects?",
+      "proposedResponse": "Check overall balance, clarity of the main element and whether anything masks or distorts another part. Effects can wait until the foundation works.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    },
+    {
+      "id": "moirai-draft-public-020",
+      "topic": "authorship",
+      "question": "How can I protect my original musical ideas while collaborating?",
+      "proposedResponse": "Agree on credit and permitted uses with collaborators, preserve dated working copies where practical, and seek qualified legal advice for formal rights questions.",
+      "reviewStatus": "draft-public-candidate",
+      "source": "newly authored educational candidate",
+      "published": false,
+      "review": {
+        "musicalAccuracy": "pending",
+        "ageSuitability": "pending",
+        "rights": "pending",
+        "privacy": "pending",
+        "reviewer": null,
+        "approvedAt": null
+      }
+    }
+  ]
+}
