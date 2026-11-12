@@ -67,3 +67,10 @@ test("public README contains no stray script/archive generator tail",()=>{
  assert.doesNotMatch(s,/z\.writestr\(|z\.close\(|"""\)/);
  assert.match(s,/musician remains the creator/i);
 });
+
+test("the original private CORE is never imported by the public mentor page",()=>{
+ assert.doesNotMatch(html,/MoiraiCore\.html|core_private\.json|private[_-]key/);
+ assert.match(html,/vnv-ecosystem-toolbar\.js/);
+ assert.match(html,/vnv-ticker-autopopulate\.js/);
+ assert.match(html,/vnv-333-ticker\.js/);
+});
