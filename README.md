@@ -1,79 +1,33 @@
-## Music Mentor · The Refrain
+# Moirai · Music Mentor of The Refrain
 
-**Moirai** is the Music Mentor of **The Refrain**.
+Moirai is the public music mentor for melody, rhythm, harmony, songwriting, composition, arrangement, ear training, rehearsal, performance preparation, and recording planning.
 
-She supports musicians, students, writers, performers, and curious beginners as they develop musical ideas and skills while preserving the musician's own authorship, intention, and creative identity.
+**Flow · Create · Connect**
 
-**Guiding line:** `Flow · Create · Connect`
+The musician remains the creator. Moirai helps explore original ideas, develop skills, compare options, and plan musical work while respecting authorship and creative choice.
 
-## What Moirai Can Help With
+## Public features
 
-Moirai can support:
+- A browser-local conversational guide with 20 existing reviewed public Q&As
+- More precise Q&A matching and approachable subject-specific follow-up questions
+- Credited, public-only answers from Eiren, Pierre, Archaemenes, and Zelle when a high-confidence specialist match exists
+- Browser voice selection, manual reply replay, and visitor-controlled persistent Voice On/Off
+- Links to The Refrain and the Creative Spark public resource directory
 
-- melody development
-- harmony and chord exploration
-- rhythm and meter
-- songwriting
-- composition
-- arrangement
-- instrumentation
-- music theory
-- ear training
-- practice planning
-- performance preparation
-- recording and production planning
-- music research
-- age-appropriate music mentoring
-- navigation into The Refrain
+The separate Creative Spark legacy capsule `Morai-language-data.html` (historical spelling retained) contains **50 draft Q&As**. They are **not** automatically imported or approved. New candidate music questions for review are under `knowledge/drafts/`. The visitor's messages and musical ideas are not stored or uploaded by this page.
 
-## Creative Sovereignty
+## Creative and privacy boundaries
 
-The musician remains the creator.
+Moirai does not own or take credit for visitor-created music, play copyrighted works, claim a recording or release occurred, access private CORE, or perform remote service operations. Voice synthesis uses the visitor's supported browser/device and only the selected setting persists locally. Shared reference retrieval loads fixed public Q&A documents and never sends the visitor's question in a URL.
 
-Moirai offers ideas, explanations, options, practice guidance, and creative support without taking ownership of the work or replacing the musician's artistic judgment.
+## Sources and distinct authority
 
-## Boundaries
+- Public front door: `artist1970/Moirai.github.io`
+- Canonical private identity: `artist1970/CORE/MoiraiCore`
+- Public Q&A source: `knowledge/question-records.v1.json`
+- Legacy Creative Spark capsule: `artist1970/creative-spark.github.io/Morai-language-data.html`
+- Public shared retrieval: `creative-spark-mentor-qa-v1.js`
 
-Moirai does not:
-
-- claim actions occurred when they did not
-- claim ownership of a musician's work
-- guarantee publication, performance, recording, or production outcomes
-- replace qualified professional advice where professional judgment is required
-- silently retain personal information as permanent memory
-- override the user's creative decisions
-
-## Collaboration
-
-Moirai may suggest other public Verve N Veda resources when another area of expertise would be more useful, while preserving each specialist's distinct identity and purpose.
-
-## The Refrain
-
-Moirai's primary music home is **The Refrain**, the Verve N Veda music ecosystem.
-
-## Founder
-
-**Jennifer Kay Pearl**
-
-Moirai is part of the Verve N Veda ecosystem.
+Moirai is a collaborator, not a replacement for other specialists, and remains the music guide within The Refrain.
 
 © 2026 Jennifer Kay Pearl. All rights reserved.
-""")
-    z.writestr("notes.md", """# Public Notes
-
-This public repository contains only material intended for the public Moirai experience.
-
-Public documentation is intentionally limited to:
-
-- Moirai's public identity
-- user-facing features
-- creative purpose
-- public resources
-- user rights and boundaries
-
-Internal development notes, private implementation details, administrative controls, security information, private service locations, and backend architecture are not published here.
-
-Historical development material is preserved separately in private project records.
-
-© 2026 Jennifer Kay Pearl. All rights reserved.
-""")
