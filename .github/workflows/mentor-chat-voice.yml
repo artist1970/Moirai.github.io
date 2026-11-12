@@ -3,6 +3,9 @@ on:
   pull_request:
     paths:
       - 'index.html'
+      - 'creative-spark-mentor-language-v1.js'
+      - 'creative-spark-language-request-v1.js'
+      - 'tests/creative-spark-language-request.test.mjs'
       - 'mentor-chat-voice-v1.js'
       - 'moirai-conversation-v1.js'
       - 'creative-spark-mentor-qa-v1.js'
@@ -16,6 +19,9 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'creative-spark-mentor-language-v1.js'
+      - 'creative-spark-language-request-v1.js'
+      - 'tests/creative-spark-language-request.test.mjs'
       - 'mentor-chat-voice-v1.js'
       - 'moirai-conversation-v1.js'
       - 'creative-spark-mentor-qa-v1.js'
@@ -35,4 +41,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/mentor-chat-voice.test.mjs tests/moirai-five-bubble.test.mjs
+      - run: node --test tests/mentor-chat-voice.test.mjs tests/moirai-five-bubble.test.mjs tests/creative-spark-language-request.test.mjs
