@@ -252,13 +252,14 @@ main .hero h1{font-size:clamp(58px,9vw,112px)}
 main .hero h1 span{font-size:clamp(16px,2vw,22px)}
 footer{background:#173047;color:#f4eee5;font-size:16px}
 </style>
+<link rel="stylesheet" href="styles/moirai-landing-refinement-v1.css">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 
 
 <main id="main">
-  <section class="hero">
+  <section class="hero" id="moirai-introduction">
     <div class="wrap hero-grid">
       <figure class="art-card">
         <img src="assets/moirai-the-refrain.png" alt="Watercolor identity artwork for Moirai, Music Mentor, and The Refrain Music Hub">
@@ -269,7 +270,7 @@ footer{background:#173047;color:#f4eee5;font-size:16px}
       </figure>
 
       <div class="hero-copy">
-        <p class="eyebrow">Noema → NAIB → Moirai → The Refrain</p>
+        <p class="eyebrow">Verve N Veda · The Refrain</p>
         <h1>Moirai <span>Music Mentor</span></h1>
         <p class="hero-lead">
           A thoughtful guide for melody, harmony, rhythm, songwriting, composition,
@@ -373,9 +374,10 @@ footer{background:#173047;color:#f4eee5;font-size:16px}
     </div>
   </section>
 <section class="section section-alt" id="moirai-chat" aria-labelledby="moirai-chat-title">
+<nav class="moirai-chat-anchor" aria-label="Music mentor conversation anchor"><span>The Refrain · Conversation with Moirai</span><a href="#moirai-introduction">Back to introduction ↑</a></nav>
 <div class="wrap" style="max-width:850px">
 <div class="section-head"><p class="kicker">Music mentor · conversation</p><h2 id="moirai-chat-title">Talk with Moirai</h2><p>Explore original melody, harmony, rhythm, songwriting, and practice. Guidance is local to this page; no messages are uploaded or saved.</p></div>
-<div style="padding:22px;background:var(--paper-2);border:1px solid var(--line);border-radius:11px;box-shadow:var(--shadow)">
+<div class="moirai-chat-shell" style="padding:22px;background:var(--paper-2);border:1px solid var(--line);border-radius:7px;box-shadow:var(--shadow)">
 <label for="moirai-message" style="display:block;margin-bottom:9px">What are you creating or learning?</label>
 <textarea id="moirai-message" rows="3" maxlength="1000" style="display:block;width:100%;padding:12px;border:1px solid var(--line-strong);border-radius:7px;background:#fff;color:var(--ink);font:inherit" placeholder="I want to write an original melody…"></textarea>
 <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px">
@@ -392,9 +394,16 @@ footer{background:#173047;color:#f4eee5;font-size:16px}
 </section>
 </main>
 
-<footer>
+<footer class="moirai-footer">
   Moirai · Music Mentor · The Refrain · Verve N Veda
+  <nav class="moirai-footer-nav" aria-label="Footer navigation">
+    <a href="#moirai-introduction">Introduction</a>
+    <a href="#moirai-chat">Talk with Moirai</a>
+    <a href="https://vervenveda.com/the_refrain.github.io/">The Refrain</a>
+    <a href="https://vervenveda.com/">Verve N Veda</a>
+  </nav>
 </footer>
+<script src="creative-spark-mentor-qa-v1.js"></script>
 <script src="moirai-conversation-v1.js"></script>
 <script src="mentor-chat-voice-v1.js"></script>
 <script src="https://vervenveda.com/assets/vnv-header-autopopulate.js"></script>
